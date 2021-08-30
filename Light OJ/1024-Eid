@@ -1,0 +1,22 @@
+
+import java.math.BigInteger;
+import java.util.Scanner;
+ 
+ 
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        for(int i=1; i<=t; i++){
+            int x=sc.nextInt();
+            BigInteger b1=BigInteger.ONE;
+            for(int j=1; j<=x; j++){
+            BigInteger n= sc.nextBigInteger();
+            if(j==1) {b1=n; continue;}
+            b1 = (n.multiply(b1)).divide(n.gcd(b1));
+            }
+            System.out.println("Case "+i+": "+b1);
+            System.gc();
+        }
+    }
+}
