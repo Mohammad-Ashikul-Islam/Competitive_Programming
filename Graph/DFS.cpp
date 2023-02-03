@@ -2,7 +2,7 @@
 using namespace std;
 
 #define ll long long
-vector<vector<ll>> adjl; //adj is adjacency list
+vector<vector<ll>> adjl;
 vector<bool> visited;
 
 void input(ll edges)
@@ -16,18 +16,18 @@ void input(ll edges)
     }
 }
 
-void bfs(ll root){
-    queue<ll> q;
-    q.push(root);
-    visited[root] = true;
-    while(!q.empty()){
-        ll temp = q.front();
-        q.pop();
+void dfs(ll root){
+    stack<ll> s;
+    s.push(root);
+    visited[root]=true;
+    while(!s.empty()){
+        ll temp = s.top();
+        s.pop();
         cout << temp << " ";
         for(ll i=0; i<adjl[temp].size(); i++){
-            if(visited[adjl[temp][i]]==false){
-                q.push(adjl[temp][i]);
-                visited[adjl[temp][i]] = true;
+            if(visited[adjl[temp][i]] == false){
+                s.push(adjl[temp][i]);
+                visited[adjl[temp][i]]=true;
             }
         }
     }
@@ -36,12 +36,11 @@ void bfs(ll root){
 
 int main()
 {
-    ll vertices, edges;
+    ll vertices,edges;
     cin >> vertices >> edges;
     adjl.resize(vertices);
     visited.resize(vertices, false);
     input(edges);
-    bfs(0);
-
+    dfs(0);
     return 0;
 }
