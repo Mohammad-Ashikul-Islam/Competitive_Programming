@@ -1,9 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+#define ll long long
+
 int main()
 {
-    int i=1;
-    cout << i++ << i-- << ++i << --i << i << endl;
+
     return 0;
 }
