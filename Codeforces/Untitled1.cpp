@@ -3,25 +3,12 @@ using namespace std;
 
 #define ll long long
 
-class A{
-    public:
-    void fnc(){
-        cout << "From Parent\n";
-    }
-};
-
-class B: public A{
-    public:
-    int fnc(){
-        cout << "From Child & Overrided\n";
-        return 1;
-    }
-};
 
 int main()
 {
-    B b;
-    b.fnc();
+    ll a=2, b= 5, c=9;
+    for(ll i=1; i<=20; i++){
+        cout<< i << ":\t" << (a^i) << " " << (b^i) << " " << (c^i) << endl;
+    }
     return 0;
 }
-
