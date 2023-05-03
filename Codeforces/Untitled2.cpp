@@ -6,51 +6,32 @@ using namespace std;
 
 int main()
 {
-    ll t;
-    cin >> t;
-    while(t--){
-        string s;
-        cin >> s;
-        ll l=s.size(),i=0;
-        ll ans = INT_MIN;
-        if(s[i]=='1' && s[l-1]=='1'){
-            i=0;
-            ll temp=0;
-            while(i<l && s[i]=='1'){
-                temp++;
-                i++;
+    vector<int> a={3,1,6,4}, b = {2,3,5,4};
+    vector<int> temp;
+    int i;
+    for(i=0; i<a.size(); i++){
+        int j;
+        bool break_hoye_ashche=false;
+        for(j=0; j<b.size(); j++){
+            if(a[i]!=b[j]) continue;
+            else{
+                break_hoye_ashche=true;
+                break;
             }
-            ll j=l-1;
-            while(j>i && s[j]=='1'){
-                temp++;
-                j--;
-            }
-            ans = max(ans,temp);
-        }
-        for(i=0; i<l; ){
-            if(s[i]=='1'){
-                ll temp = 0;
-                while(i<l && s[i]=='1'){
-                    temp++;
-                    i++;
+            if(break_hoye_ashche == false){
+                int k;
+                bool vanga=false;
+                for(k=0; k<temp.size(); k++){
+                    if(a[i] != temp[k]) continue;
+                    else{
+                        vanga=true;
+                        break;
+                    }
                 }
-                ans = max(ans,temp);
+                if(vanga==false) temp.push_back(a[i]);
             }
-            else i++;
         }
-        if(ans==INT_MIN){
-            cout << 0 << endl;
-            continue;
-        }
-        else if(ans>=l){
-            cout << l*l << endl;
-            continue;
-        }
-        for(ll j=1,k=ans; j<=k; j++,k--){
-            ll temp = j*k;
-            ans = max(temp,ans);
-        }
-        cout << ans << endl;
+
     }
     return 0;
 }
