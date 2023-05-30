@@ -3,33 +3,33 @@ using namespace std;
 
 #define ll long long
 
+
 int main()
 {
-    ll cas,t;
-    cin >> t;
-    for(cas=1; cas<=t; cas++){
-        vector<ll> v(26);
-        ll i;
-        for(i=0; i<26; i++) cin >> v[i];
-        ll k;
-        cin >> k;
-        bool coll = false;
-        set<string> st;
-        while(k--){
-            string s;
-            cin >> s;
-            string p;
-            for(i=0; i<s.size(); i++){
-                p.push_back((v[s[i]-'A'])+'A');
-                //num = num*10 + v[s[i]-'A'];
-            }
-            ll l = st.size();
-            st.insert(p);
-            if(st.size()==l) coll = true;
-        }
-        if(coll == false) printf("Case #%lld: NO\n",cas);
-        else printf("Case #%lld: YES\n",cas);
+    string s;
+    cin >> s;
+    string p;
+    ll i=0,n=s.size(),left=0,right=n-1;
+    while( i+2<n && s[i]=='W' && s[i+1]=='U' && s[i+2]=='B'){
+        left=i+3;
+        i = i+ 3;
     }
+    i=n-1;
+    while( i-2>=0 && s[i]=='B' && s[i-1]=='U' && s[i-2]=='W'){
+        right=i-3;
+        i = i-3;
+    }
+    for(i=left; i<=right; ){
+        if(i+2<=right && s[i]=='W' && s[i+1]=='U' && s[i+2]=='B'){
+            p.push_back(' ');
+            i+=3;
+        }
+        else{
+            p.push_back(s[i]);
+            i++;
+        }
+    }
+    cout << p << endl;
     return 0;
 }
 

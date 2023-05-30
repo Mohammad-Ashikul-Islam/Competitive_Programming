@@ -3,22 +3,21 @@ using namespace std;
 
 #define ll long long
 
-class employee{
-public:
- void fnc(){
-    cout << "Employee Class\n";
- }
-} ;
+//ref, in, out
 
-class teacher:public employee{
-public:
-};
+void swp( int a,int b)
+{
+    int temp = a;
+    a = b;
+    b = temp;
+}
 
 int main()
 {
-    employee e;
-    e.fnc();
-    teacher t;
-    t.fnc();
+    int a=5;
+    if(a){
+        int a=6;
+        cout << a << " " << :a << endl;
+    }
     return 0;
 }

@@ -1,15 +1,19 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+#define ll long long
+
+
 int main()
 {
-	int *p,numbers[5];
-	p = numbers;
-	*p = 10;
-	p++;          *p = 20;
-	p = &numbers[2];       *p = 30;
-	p = numbers + 3;     *p = 40;
-	p = numbers;    *(p+4) = 50;
-	for(int i=0; i<5; i++)
-	cout << p[i] << endl;  
-	return 0;
+    string s;
+    getline(cin,s);
+    bool ans = false;
+    if(count(s.begin(),s.end(),'H')) ans = true;
+    if(count(s.begin(),s.end(),'Q')) ans = true;
+    if(count(s.begin(),s.end(),'9')) ans = true;
+    //if(count(s.begin(),s.end(),'+')) ans = true;
+    if(ans) cout << "YES\n";
+    else cout << "NO\n";
+    return 0;
 }
