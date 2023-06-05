@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Flag\bin\Debug\net7.0\A. Flag.exe
+E:\C#\C# Code Practice\Assignment 1\A. Flag\bin\Debug\net7.0\A. Flag.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Flag\bin\Debug\net7.0\A. Flag.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Flag\bin\Debug\net7.0\A. Flag.dll
+E:\C#\C# Code Practice\Assignment 1\A. Flag\bin\Debug\net7.0\A. Flag.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Flag\obj\Debug\net7.0\A. Flag.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Flag\obj\Debug\net7.0\A. Flag.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Flag\obj\Debug\net7.0\A. Flag.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Flag\obj\Debug\net7.0\A. Flag.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Flag\obj\Debug\net7.0\A. Flag.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Flag\obj\Debug\net7.0\A. Flag.dll
+E:\C#\C# Code Practice\Assignment 1\A. Flag\obj\Debug\net7.0\refint\A. Flag.dll
+E:\C#\C# Code Practice\Assignment 1\A. Flag\obj\Debug\net7.0\A. Flag.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Flag\obj\Debug\net7.0\A. Flag.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Flag\obj\Debug\net7.0\ref\A. Flag.dll

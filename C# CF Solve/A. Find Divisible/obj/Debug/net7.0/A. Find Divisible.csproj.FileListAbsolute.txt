@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Find Divisible\bin\Debug\net7.0\A. Find Divisible.exe
+E:\C#\C# Code Practice\Assignment 1\A. Find Divisible\bin\Debug\net7.0\A. Find Divisible.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Find Divisible\bin\Debug\net7.0\A. Find Divisible.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Find Divisible\bin\Debug\net7.0\A. Find Divisible.dll
+E:\C#\C# Code Practice\Assignment 1\A. Find Divisible\bin\Debug\net7.0\A. Find Divisible.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Find Divisible\obj\Debug\net7.0\A. Find Divisible.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Find Divisible\obj\Debug\net7.0\A. Find Divisible.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Find Divisible\obj\Debug\net7.0\A. Find Divisible.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Find Divisible\obj\Debug\net7.0\A. Find Divisible.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Find Divisible\obj\Debug\net7.0\A. Find Divisible.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Find Divisible\obj\Debug\net7.0\A. Find Divisible.dll
+E:\C#\C# Code Practice\Assignment 1\A. Find Divisible\obj\Debug\net7.0\refint\A. Find Divisible.dll
+E:\C#\C# Code Practice\Assignment 1\A. Find Divisible\obj\Debug\net7.0\A. Find Divisible.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Find Divisible\obj\Debug\net7.0\A. Find Divisible.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Find Divisible\obj\Debug\net7.0\ref\A. Find Divisible.dll

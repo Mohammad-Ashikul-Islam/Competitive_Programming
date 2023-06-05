@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. A+B (Trial Problem)\bin\Debug\net7.0\A. A+B (Trial Problem).exe
+E:\C#\C# Code Practice\Assignment 1\A. A+B (Trial Problem)\bin\Debug\net7.0\A. A+B (Trial Problem).deps.json
+E:\C#\C# Code Practice\Assignment 1\A. A+B (Trial Problem)\bin\Debug\net7.0\A. A+B (Trial Problem).runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. A+B (Trial Problem)\bin\Debug\net7.0\A. A+B (Trial Problem).dll
+E:\C#\C# Code Practice\Assignment 1\A. A+B (Trial Problem)\bin\Debug\net7.0\A. A+B (Trial Problem).pdb
+E:\C#\C# Code Practice\Assignment 1\A. A+B (Trial Problem)\obj\Debug\net7.0\A. A+B (Trial Problem).csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. A+B (Trial Problem)\obj\Debug\net7.0\A. A+B (Trial Problem).GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. A+B (Trial Problem)\obj\Debug\net7.0\A. A+B (Trial Problem).AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. A+B (Trial Problem)\obj\Debug\net7.0\A. A+B (Trial Problem).AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. A+B (Trial Problem)\obj\Debug\net7.0\A. A+B (Trial Problem).csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. A+B (Trial Problem)\obj\Debug\net7.0\A. A+B (Trial Problem).dll
+E:\C#\C# Code Practice\Assignment 1\A. A+B (Trial Problem)\obj\Debug\net7.0\refint\A. A+B (Trial Problem).dll
+E:\C#\C# Code Practice\Assignment 1\A. A+B (Trial Problem)\obj\Debug\net7.0\A. A+B (Trial Problem).pdb
+E:\C#\C# Code Practice\Assignment 1\A. A+B (Trial Problem)\obj\Debug\net7.0\A. A+B (Trial Problem).genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. A+B (Trial Problem)\obj\Debug\net7.0\ref\A. A+B (Trial Problem).dll

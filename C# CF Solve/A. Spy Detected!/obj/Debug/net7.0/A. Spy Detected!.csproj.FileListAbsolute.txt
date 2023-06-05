@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Spy Detected!\bin\Debug\net7.0\A. Spy Detected!.exe
+E:\C#\C# Code Practice\Assignment 1\A. Spy Detected!\bin\Debug\net7.0\A. Spy Detected!.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Spy Detected!\bin\Debug\net7.0\A. Spy Detected!.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Spy Detected!\bin\Debug\net7.0\A. Spy Detected!.dll
+E:\C#\C# Code Practice\Assignment 1\A. Spy Detected!\bin\Debug\net7.0\A. Spy Detected!.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Spy Detected!\obj\Debug\net7.0\A. Spy Detected!.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Spy Detected!\obj\Debug\net7.0\A. Spy Detected!.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Spy Detected!\obj\Debug\net7.0\A. Spy Detected!.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Spy Detected!\obj\Debug\net7.0\A. Spy Detected!.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Spy Detected!\obj\Debug\net7.0\A. Spy Detected!.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Spy Detected!\obj\Debug\net7.0\A. Spy Detected!.dll
+E:\C#\C# Code Practice\Assignment 1\A. Spy Detected!\obj\Debug\net7.0\refint\A. Spy Detected!.dll
+E:\C#\C# Code Practice\Assignment 1\A. Spy Detected!\obj\Debug\net7.0\A. Spy Detected!.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Spy Detected!\obj\Debug\net7.0\A. Spy Detected!.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Spy Detected!\obj\Debug\net7.0\ref\A. Spy Detected!.dll

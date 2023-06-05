@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. GukiZ and Contest\bin\Debug\net7.0\A. GukiZ and Contest.exe
+E:\C#\C# Code Practice\Assignment 1\A. GukiZ and Contest\bin\Debug\net7.0\A. GukiZ and Contest.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. GukiZ and Contest\bin\Debug\net7.0\A. GukiZ and Contest.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. GukiZ and Contest\bin\Debug\net7.0\A. GukiZ and Contest.dll
+E:\C#\C# Code Practice\Assignment 1\A. GukiZ and Contest\bin\Debug\net7.0\A. GukiZ and Contest.pdb
+E:\C#\C# Code Practice\Assignment 1\A. GukiZ and Contest\obj\Debug\net7.0\A. GukiZ and Contest.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. GukiZ and Contest\obj\Debug\net7.0\A. GukiZ and Contest.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. GukiZ and Contest\obj\Debug\net7.0\A. GukiZ and Contest.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. GukiZ and Contest\obj\Debug\net7.0\A. GukiZ and Contest.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. GukiZ and Contest\obj\Debug\net7.0\A. GukiZ and Contest.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. GukiZ and Contest\obj\Debug\net7.0\A. GukiZ and Contest.dll
+E:\C#\C# Code Practice\Assignment 1\A. GukiZ and Contest\obj\Debug\net7.0\refint\A. GukiZ and Contest.dll
+E:\C#\C# Code Practice\Assignment 1\A. GukiZ and Contest\obj\Debug\net7.0\A. GukiZ and Contest.pdb
+E:\C#\C# Code Practice\Assignment 1\A. GukiZ and Contest\obj\Debug\net7.0\A. GukiZ and Contest.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. GukiZ and Contest\obj\Debug\net7.0\ref\A. GukiZ and Contest.dll

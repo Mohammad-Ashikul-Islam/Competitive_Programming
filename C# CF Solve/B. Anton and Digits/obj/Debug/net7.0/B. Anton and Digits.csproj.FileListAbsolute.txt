@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\B. Anton and Digits\bin\Debug\net7.0\B. Anton and Digits.exe
+E:\C#\C# Code Practice\Assignment 1\B. Anton and Digits\bin\Debug\net7.0\B. Anton and Digits.deps.json
+E:\C#\C# Code Practice\Assignment 1\B. Anton and Digits\bin\Debug\net7.0\B. Anton and Digits.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\B. Anton and Digits\bin\Debug\net7.0\B. Anton and Digits.dll
+E:\C#\C# Code Practice\Assignment 1\B. Anton and Digits\bin\Debug\net7.0\B. Anton and Digits.pdb
+E:\C#\C# Code Practice\Assignment 1\B. Anton and Digits\obj\Debug\net7.0\B. Anton and Digits.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\B. Anton and Digits\obj\Debug\net7.0\B. Anton and Digits.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\B. Anton and Digits\obj\Debug\net7.0\B. Anton and Digits.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\B. Anton and Digits\obj\Debug\net7.0\B. Anton and Digits.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\B. Anton and Digits\obj\Debug\net7.0\B. Anton and Digits.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\B. Anton and Digits\obj\Debug\net7.0\B. Anton and Digits.dll
+E:\C#\C# Code Practice\Assignment 1\B. Anton and Digits\obj\Debug\net7.0\refint\B. Anton and Digits.dll
+E:\C#\C# Code Practice\Assignment 1\B. Anton and Digits\obj\Debug\net7.0\B. Anton and Digits.pdb
+E:\C#\C# Code Practice\Assignment 1\B. Anton and Digits\obj\Debug\net7.0\B. Anton and Digits.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\B. Anton and Digits\obj\Debug\net7.0\ref\B. Anton and Digits.dll

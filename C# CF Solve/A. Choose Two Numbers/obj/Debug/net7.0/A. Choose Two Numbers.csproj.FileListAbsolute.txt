@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Choose Two Numbers\bin\Debug\net7.0\A. Choose Two Numbers.exe
+E:\C#\C# Code Practice\Assignment 1\A. Choose Two Numbers\bin\Debug\net7.0\A. Choose Two Numbers.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Choose Two Numbers\bin\Debug\net7.0\A. Choose Two Numbers.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Choose Two Numbers\bin\Debug\net7.0\A. Choose Two Numbers.dll
+E:\C#\C# Code Practice\Assignment 1\A. Choose Two Numbers\bin\Debug\net7.0\A. Choose Two Numbers.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Choose Two Numbers\obj\Debug\net7.0\A. Choose Two Numbers.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Choose Two Numbers\obj\Debug\net7.0\A. Choose Two Numbers.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Choose Two Numbers\obj\Debug\net7.0\A. Choose Two Numbers.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Choose Two Numbers\obj\Debug\net7.0\A. Choose Two Numbers.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Choose Two Numbers\obj\Debug\net7.0\A. Choose Two Numbers.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Choose Two Numbers\obj\Debug\net7.0\A. Choose Two Numbers.dll
+E:\C#\C# Code Practice\Assignment 1\A. Choose Two Numbers\obj\Debug\net7.0\refint\A. Choose Two Numbers.dll
+E:\C#\C# Code Practice\Assignment 1\A. Choose Two Numbers\obj\Debug\net7.0\A. Choose Two Numbers.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Choose Two Numbers\obj\Debug\net7.0\A. Choose Two Numbers.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Choose Two Numbers\obj\Debug\net7.0\ref\A. Choose Two Numbers.dll

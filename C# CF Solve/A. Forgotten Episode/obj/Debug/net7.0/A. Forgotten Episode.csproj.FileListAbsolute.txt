@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Forgotten Episode\bin\Debug\net7.0\A. Forgotten Episode.exe
+E:\C#\C# Code Practice\Assignment 1\A. Forgotten Episode\bin\Debug\net7.0\A. Forgotten Episode.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Forgotten Episode\bin\Debug\net7.0\A. Forgotten Episode.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Forgotten Episode\bin\Debug\net7.0\A. Forgotten Episode.dll
+E:\C#\C# Code Practice\Assignment 1\A. Forgotten Episode\bin\Debug\net7.0\A. Forgotten Episode.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Forgotten Episode\obj\Debug\net7.0\A. Forgotten Episode.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Forgotten Episode\obj\Debug\net7.0\A. Forgotten Episode.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Forgotten Episode\obj\Debug\net7.0\A. Forgotten Episode.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Forgotten Episode\obj\Debug\net7.0\A. Forgotten Episode.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Forgotten Episode\obj\Debug\net7.0\A. Forgotten Episode.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Forgotten Episode\obj\Debug\net7.0\A. Forgotten Episode.dll
+E:\C#\C# Code Practice\Assignment 1\A. Forgotten Episode\obj\Debug\net7.0\refint\A. Forgotten Episode.dll
+E:\C#\C# Code Practice\Assignment 1\A. Forgotten Episode\obj\Debug\net7.0\A. Forgotten Episode.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Forgotten Episode\obj\Debug\net7.0\A. Forgotten Episode.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Forgotten Episode\obj\Debug\net7.0\ref\A. Forgotten Episode.dll

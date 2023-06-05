@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Love Triangle\bin\Debug\net7.0\A. Love Triangle.exe
+E:\C#\C# Code Practice\Assignment 1\A. Love Triangle\bin\Debug\net7.0\A. Love Triangle.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Love Triangle\bin\Debug\net7.0\A. Love Triangle.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Love Triangle\bin\Debug\net7.0\A. Love Triangle.dll
+E:\C#\C# Code Practice\Assignment 1\A. Love Triangle\bin\Debug\net7.0\A. Love Triangle.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Love Triangle\obj\Debug\net7.0\A. Love Triangle.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Love Triangle\obj\Debug\net7.0\A. Love Triangle.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Love Triangle\obj\Debug\net7.0\A. Love Triangle.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Love Triangle\obj\Debug\net7.0\A. Love Triangle.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Love Triangle\obj\Debug\net7.0\A. Love Triangle.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Love Triangle\obj\Debug\net7.0\A. Love Triangle.dll
+E:\C#\C# Code Practice\Assignment 1\A. Love Triangle\obj\Debug\net7.0\refint\A. Love Triangle.dll
+E:\C#\C# Code Practice\Assignment 1\A. Love Triangle\obj\Debug\net7.0\A. Love Triangle.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Love Triangle\obj\Debug\net7.0\A. Love Triangle.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Love Triangle\obj\Debug\net7.0\ref\A. Love Triangle.dll

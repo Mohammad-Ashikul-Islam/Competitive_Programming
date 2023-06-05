@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Phone Code\bin\Debug\net7.0\A. Phone Code.exe
+E:\C#\C# Code Practice\Assignment 1\A. Phone Code\bin\Debug\net7.0\A. Phone Code.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Phone Code\bin\Debug\net7.0\A. Phone Code.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Phone Code\bin\Debug\net7.0\A. Phone Code.dll
+E:\C#\C# Code Practice\Assignment 1\A. Phone Code\bin\Debug\net7.0\A. Phone Code.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Phone Code\obj\Debug\net7.0\A. Phone Code.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Phone Code\obj\Debug\net7.0\A. Phone Code.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Phone Code\obj\Debug\net7.0\A. Phone Code.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Phone Code\obj\Debug\net7.0\A. Phone Code.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Phone Code\obj\Debug\net7.0\A. Phone Code.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Phone Code\obj\Debug\net7.0\A. Phone Code.dll
+E:\C#\C# Code Practice\Assignment 1\A. Phone Code\obj\Debug\net7.0\refint\A. Phone Code.dll
+E:\C#\C# Code Practice\Assignment 1\A. Phone Code\obj\Debug\net7.0\A. Phone Code.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Phone Code\obj\Debug\net7.0\A. Phone Code.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Phone Code\obj\Debug\net7.0\ref\A. Phone Code.dll

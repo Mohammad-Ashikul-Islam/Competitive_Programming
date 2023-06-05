@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Diagonal Walking\obj\Debug\net7.0\A. Diagonal Walking.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Diagonal Walking\obj\Debug\net7.0\A. Diagonal Walking.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Diagonal Walking\obj\Debug\net7.0\A. Diagonal Walking.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Diagonal Walking\obj\Debug\net7.0\A. Diagonal Walking.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Diagonal Walking\obj\Debug\net7.0\A. Diagonal Walking.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Diagonal Walking\bin\Debug\net7.0\A. Diagonal Walking.exe
+E:\C#\C# Code Practice\Assignment 1\A. Diagonal Walking\bin\Debug\net7.0\A. Diagonal Walking.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Diagonal Walking\bin\Debug\net7.0\A. Diagonal Walking.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Diagonal Walking\bin\Debug\net7.0\A. Diagonal Walking.dll
+E:\C#\C# Code Practice\Assignment 1\A. Diagonal Walking\bin\Debug\net7.0\A. Diagonal Walking.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Diagonal Walking\obj\Debug\net7.0\A. Diagonal Walking.dll
+E:\C#\C# Code Practice\Assignment 1\A. Diagonal Walking\obj\Debug\net7.0\refint\A. Diagonal Walking.dll
+E:\C#\C# Code Practice\Assignment 1\A. Diagonal Walking\obj\Debug\net7.0\A. Diagonal Walking.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Diagonal Walking\obj\Debug\net7.0\A. Diagonal Walking.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Diagonal Walking\obj\Debug\net7.0\ref\A. Diagonal Walking.dll

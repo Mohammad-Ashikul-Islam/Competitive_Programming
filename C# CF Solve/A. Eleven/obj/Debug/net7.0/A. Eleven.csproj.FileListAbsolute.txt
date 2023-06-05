@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Eleven\bin\Debug\net7.0\A. Eleven.exe
+E:\C#\C# Code Practice\Assignment 1\A. Eleven\bin\Debug\net7.0\A. Eleven.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Eleven\bin\Debug\net7.0\A. Eleven.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Eleven\bin\Debug\net7.0\A. Eleven.dll
+E:\C#\C# Code Practice\Assignment 1\A. Eleven\bin\Debug\net7.0\A. Eleven.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Eleven\obj\Debug\net7.0\A. Eleven.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Eleven\obj\Debug\net7.0\A. Eleven.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Eleven\obj\Debug\net7.0\A. Eleven.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Eleven\obj\Debug\net7.0\A. Eleven.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Eleven\obj\Debug\net7.0\A. Eleven.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Eleven\obj\Debug\net7.0\A. Eleven.dll
+E:\C#\C# Code Practice\Assignment 1\A. Eleven\obj\Debug\net7.0\refint\A. Eleven.dll
+E:\C#\C# Code Practice\Assignment 1\A. Eleven\obj\Debug\net7.0\A. Eleven.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Eleven\obj\Debug\net7.0\A. Eleven.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Eleven\obj\Debug\net7.0\ref\A. Eleven.dll

@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Second-Price Auction\bin\Debug\net7.0\A. Second-Price Auction.exe
+E:\C#\C# Code Practice\Assignment 1\A. Second-Price Auction\bin\Debug\net7.0\A. Second-Price Auction.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Second-Price Auction\bin\Debug\net7.0\A. Second-Price Auction.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Second-Price Auction\bin\Debug\net7.0\A. Second-Price Auction.dll
+E:\C#\C# Code Practice\Assignment 1\A. Second-Price Auction\bin\Debug\net7.0\A. Second-Price Auction.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Second-Price Auction\obj\Debug\net7.0\A. Second-Price Auction.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Second-Price Auction\obj\Debug\net7.0\A. Second-Price Auction.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Second-Price Auction\obj\Debug\net7.0\A. Second-Price Auction.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Second-Price Auction\obj\Debug\net7.0\A. Second-Price Auction.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Second-Price Auction\obj\Debug\net7.0\A. Second-Price Auction.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Second-Price Auction\obj\Debug\net7.0\A. Second-Price Auction.dll
+E:\C#\C# Code Practice\Assignment 1\A. Second-Price Auction\obj\Debug\net7.0\refint\A. Second-Price Auction.dll
+E:\C#\C# Code Practice\Assignment 1\A. Second-Price Auction\obj\Debug\net7.0\A. Second-Price Auction.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Second-Price Auction\obj\Debug\net7.0\A. Second-Price Auction.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Second-Price Auction\obj\Debug\net7.0\ref\A. Second-Price Auction.dll

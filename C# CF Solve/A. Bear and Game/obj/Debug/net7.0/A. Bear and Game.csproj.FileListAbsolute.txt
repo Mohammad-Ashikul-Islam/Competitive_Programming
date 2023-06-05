@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Bear and Game\bin\Debug\net7.0\A. Bear and Game.exe
+E:\C#\C# Code Practice\Assignment 1\A. Bear and Game\bin\Debug\net7.0\A. Bear and Game.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Bear and Game\bin\Debug\net7.0\A. Bear and Game.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Bear and Game\bin\Debug\net7.0\A. Bear and Game.dll
+E:\C#\C# Code Practice\Assignment 1\A. Bear and Game\bin\Debug\net7.0\A. Bear and Game.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Bear and Game\obj\Debug\net7.0\A. Bear and Game.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Bear and Game\obj\Debug\net7.0\A. Bear and Game.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Bear and Game\obj\Debug\net7.0\A. Bear and Game.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Bear and Game\obj\Debug\net7.0\A. Bear and Game.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Bear and Game\obj\Debug\net7.0\A. Bear and Game.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Bear and Game\obj\Debug\net7.0\A. Bear and Game.dll
+E:\C#\C# Code Practice\Assignment 1\A. Bear and Game\obj\Debug\net7.0\refint\A. Bear and Game.dll
+E:\C#\C# Code Practice\Assignment 1\A. Bear and Game\obj\Debug\net7.0\A. Bear and Game.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Bear and Game\obj\Debug\net7.0\A. Bear and Game.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Bear and Game\obj\Debug\net7.0\ref\A. Bear and Game.dll

@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. King Moves\bin\Debug\net7.0\A. King Moves.exe
+E:\C#\C# Code Practice\Assignment 1\A. King Moves\bin\Debug\net7.0\A. King Moves.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. King Moves\bin\Debug\net7.0\A. King Moves.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. King Moves\bin\Debug\net7.0\A. King Moves.dll
+E:\C#\C# Code Practice\Assignment 1\A. King Moves\bin\Debug\net7.0\A. King Moves.pdb
+E:\C#\C# Code Practice\Assignment 1\A. King Moves\obj\Debug\net7.0\A. King Moves.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. King Moves\obj\Debug\net7.0\A. King Moves.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. King Moves\obj\Debug\net7.0\A. King Moves.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. King Moves\obj\Debug\net7.0\A. King Moves.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. King Moves\obj\Debug\net7.0\A. King Moves.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. King Moves\obj\Debug\net7.0\A. King Moves.dll
+E:\C#\C# Code Practice\Assignment 1\A. King Moves\obj\Debug\net7.0\refint\A. King Moves.dll
+E:\C#\C# Code Practice\Assignment 1\A. King Moves\obj\Debug\net7.0\A. King Moves.pdb
+E:\C#\C# Code Practice\Assignment 1\A. King Moves\obj\Debug\net7.0\A. King Moves.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. King Moves\obj\Debug\net7.0\ref\A. King Moves.dll

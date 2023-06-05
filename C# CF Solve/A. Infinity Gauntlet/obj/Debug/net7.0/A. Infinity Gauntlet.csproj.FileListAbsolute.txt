@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Infinity Gauntlet\bin\Debug\net7.0\A. Infinity Gauntlet.exe
+E:\C#\C# Code Practice\Assignment 1\A. Infinity Gauntlet\bin\Debug\net7.0\A. Infinity Gauntlet.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Infinity Gauntlet\bin\Debug\net7.0\A. Infinity Gauntlet.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Infinity Gauntlet\bin\Debug\net7.0\A. Infinity Gauntlet.dll
+E:\C#\C# Code Practice\Assignment 1\A. Infinity Gauntlet\bin\Debug\net7.0\A. Infinity Gauntlet.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Infinity Gauntlet\obj\Debug\net7.0\A. Infinity Gauntlet.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Infinity Gauntlet\obj\Debug\net7.0\A. Infinity Gauntlet.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Infinity Gauntlet\obj\Debug\net7.0\A. Infinity Gauntlet.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Infinity Gauntlet\obj\Debug\net7.0\A. Infinity Gauntlet.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Infinity Gauntlet\obj\Debug\net7.0\A. Infinity Gauntlet.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Infinity Gauntlet\obj\Debug\net7.0\A. Infinity Gauntlet.dll
+E:\C#\C# Code Practice\Assignment 1\A. Infinity Gauntlet\obj\Debug\net7.0\refint\A. Infinity Gauntlet.dll
+E:\C#\C# Code Practice\Assignment 1\A. Infinity Gauntlet\obj\Debug\net7.0\A. Infinity Gauntlet.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Infinity Gauntlet\obj\Debug\net7.0\A. Infinity Gauntlet.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Infinity Gauntlet\obj\Debug\net7.0\ref\A. Infinity Gauntlet.dll

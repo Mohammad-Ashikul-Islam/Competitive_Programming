@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Circle Line\obj\Debug\net7.0\A. Circle Line.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Circle Line\obj\Debug\net7.0\A. Circle Line.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Circle Line\obj\Debug\net7.0\A. Circle Line.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Circle Line\obj\Debug\net7.0\A. Circle Line.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Circle Line\obj\Debug\net7.0\A. Circle Line.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Circle Line\bin\Debug\net7.0\A. Circle Line.exe
+E:\C#\C# Code Practice\Assignment 1\A. Circle Line\bin\Debug\net7.0\A. Circle Line.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Circle Line\bin\Debug\net7.0\A. Circle Line.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Circle Line\bin\Debug\net7.0\A. Circle Line.dll
+E:\C#\C# Code Practice\Assignment 1\A. Circle Line\bin\Debug\net7.0\A. Circle Line.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Circle Line\obj\Debug\net7.0\A. Circle Line.dll
+E:\C#\C# Code Practice\Assignment 1\A. Circle Line\obj\Debug\net7.0\refint\A. Circle Line.dll
+E:\C#\C# Code Practice\Assignment 1\A. Circle Line\obj\Debug\net7.0\A. Circle Line.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Circle Line\obj\Debug\net7.0\A. Circle Line.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Circle Line\obj\Debug\net7.0\ref\A. Circle Line.dll

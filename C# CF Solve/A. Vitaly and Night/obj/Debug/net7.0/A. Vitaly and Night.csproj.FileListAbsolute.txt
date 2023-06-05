@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Vitaly and Night\bin\Debug\net7.0\A. Vitaly and Night.exe
+E:\C#\C# Code Practice\Assignment 1\A. Vitaly and Night\bin\Debug\net7.0\A. Vitaly and Night.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Vitaly and Night\bin\Debug\net7.0\A. Vitaly and Night.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Vitaly and Night\bin\Debug\net7.0\A. Vitaly and Night.dll
+E:\C#\C# Code Practice\Assignment 1\A. Vitaly and Night\bin\Debug\net7.0\A. Vitaly and Night.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Vitaly and Night\obj\Debug\net7.0\A. Vitaly and Night.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Vitaly and Night\obj\Debug\net7.0\A. Vitaly and Night.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Vitaly and Night\obj\Debug\net7.0\A. Vitaly and Night.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Vitaly and Night\obj\Debug\net7.0\A. Vitaly and Night.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Vitaly and Night\obj\Debug\net7.0\A. Vitaly and Night.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Vitaly and Night\obj\Debug\net7.0\A. Vitaly and Night.dll
+E:\C#\C# Code Practice\Assignment 1\A. Vitaly and Night\obj\Debug\net7.0\refint\A. Vitaly and Night.dll
+E:\C#\C# Code Practice\Assignment 1\A. Vitaly and Night\obj\Debug\net7.0\A. Vitaly and Night.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Vitaly and Night\obj\Debug\net7.0\A. Vitaly and Night.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Vitaly and Night\obj\Debug\net7.0\ref\A. Vitaly and Night.dll

@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\B. File Name\bin\Debug\net7.0\B. File Name.exe
+E:\C#\C# Code Practice\Assignment 1\B. File Name\bin\Debug\net7.0\B. File Name.deps.json
+E:\C#\C# Code Practice\Assignment 1\B. File Name\bin\Debug\net7.0\B. File Name.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\B. File Name\bin\Debug\net7.0\B. File Name.dll
+E:\C#\C# Code Practice\Assignment 1\B. File Name\bin\Debug\net7.0\B. File Name.pdb
+E:\C#\C# Code Practice\Assignment 1\B. File Name\obj\Debug\net7.0\B. File Name.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\B. File Name\obj\Debug\net7.0\B. File Name.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\B. File Name\obj\Debug\net7.0\B. File Name.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\B. File Name\obj\Debug\net7.0\B. File Name.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\B. File Name\obj\Debug\net7.0\B. File Name.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\B. File Name\obj\Debug\net7.0\B. File Name.dll
+E:\C#\C# Code Practice\Assignment 1\B. File Name\obj\Debug\net7.0\refint\B. File Name.dll
+E:\C#\C# Code Practice\Assignment 1\B. File Name\obj\Debug\net7.0\B. File Name.pdb
+E:\C#\C# Code Practice\Assignment 1\B. File Name\obj\Debug\net7.0\B. File Name.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\B. File Name\obj\Debug\net7.0\ref\B. File Name.dll

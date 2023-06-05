@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Uniform String\bin\Debug\net7.0\A. Uniform String.exe
+E:\C#\C# Code Practice\Assignment 1\A. Uniform String\bin\Debug\net7.0\A. Uniform String.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Uniform String\bin\Debug\net7.0\A. Uniform String.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Uniform String\bin\Debug\net7.0\A. Uniform String.dll
+E:\C#\C# Code Practice\Assignment 1\A. Uniform String\bin\Debug\net7.0\A. Uniform String.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Uniform String\obj\Debug\net7.0\A. Uniform String.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Uniform String\obj\Debug\net7.0\A. Uniform String.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Uniform String\obj\Debug\net7.0\A. Uniform String.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Uniform String\obj\Debug\net7.0\A. Uniform String.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Uniform String\obj\Debug\net7.0\A. Uniform String.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Uniform String\obj\Debug\net7.0\A. Uniform String.dll
+E:\C#\C# Code Practice\Assignment 1\A. Uniform String\obj\Debug\net7.0\refint\A. Uniform String.dll
+E:\C#\C# Code Practice\Assignment 1\A. Uniform String\obj\Debug\net7.0\A. Uniform String.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Uniform String\obj\Debug\net7.0\A. Uniform String.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Uniform String\obj\Debug\net7.0\ref\A. Uniform String.dll

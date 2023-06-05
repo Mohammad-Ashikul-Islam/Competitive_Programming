@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Professor GukiZ's Robot\bin\Debug\net7.0\A. Professor GukiZ's Robot.exe
+E:\C#\C# Code Practice\Assignment 1\A. Professor GukiZ's Robot\bin\Debug\net7.0\A. Professor GukiZ's Robot.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Professor GukiZ's Robot\bin\Debug\net7.0\A. Professor GukiZ's Robot.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Professor GukiZ's Robot\bin\Debug\net7.0\A. Professor GukiZ's Robot.dll
+E:\C#\C# Code Practice\Assignment 1\A. Professor GukiZ's Robot\bin\Debug\net7.0\A. Professor GukiZ's Robot.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Professor GukiZ's Robot\obj\Debug\net7.0\A. Professor GukiZ's Robot.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Professor GukiZ's Robot\obj\Debug\net7.0\A. Professor GukiZ's Robot.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Professor GukiZ's Robot\obj\Debug\net7.0\A. Professor GukiZ's Robot.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Professor GukiZ's Robot\obj\Debug\net7.0\A. Professor GukiZ's Robot.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Professor GukiZ's Robot\obj\Debug\net7.0\A. Professor GukiZ's Robot.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Professor GukiZ's Robot\obj\Debug\net7.0\A. Professor GukiZ's Robot.dll
+E:\C#\C# Code Practice\Assignment 1\A. Professor GukiZ's Robot\obj\Debug\net7.0\refint\A. Professor GukiZ's Robot.dll
+E:\C#\C# Code Practice\Assignment 1\A. Professor GukiZ's Robot\obj\Debug\net7.0\A. Professor GukiZ's Robot.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Professor GukiZ's Robot\obj\Debug\net7.0\A. Professor GukiZ's Robot.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Professor GukiZ's Robot\obj\Debug\net7.0\ref\A. Professor GukiZ's Robot.dll

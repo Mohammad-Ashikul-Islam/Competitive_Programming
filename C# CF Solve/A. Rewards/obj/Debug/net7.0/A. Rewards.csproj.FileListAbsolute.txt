@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Rewards\bin\Debug\net7.0\A. Rewards.exe
+E:\C#\C# Code Practice\Assignment 1\A. Rewards\bin\Debug\net7.0\A. Rewards.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Rewards\bin\Debug\net7.0\A. Rewards.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Rewards\bin\Debug\net7.0\A. Rewards.dll
+E:\C#\C# Code Practice\Assignment 1\A. Rewards\bin\Debug\net7.0\A. Rewards.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Rewards\obj\Debug\net7.0\A. Rewards.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Rewards\obj\Debug\net7.0\A. Rewards.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Rewards\obj\Debug\net7.0\A. Rewards.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Rewards\obj\Debug\net7.0\A. Rewards.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Rewards\obj\Debug\net7.0\A. Rewards.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Rewards\obj\Debug\net7.0\A. Rewards.dll
+E:\C#\C# Code Practice\Assignment 1\A. Rewards\obj\Debug\net7.0\refint\A. Rewards.dll
+E:\C#\C# Code Practice\Assignment 1\A. Rewards\obj\Debug\net7.0\A. Rewards.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Rewards\obj\Debug\net7.0\A. Rewards.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Rewards\obj\Debug\net7.0\ref\A. Rewards.dll

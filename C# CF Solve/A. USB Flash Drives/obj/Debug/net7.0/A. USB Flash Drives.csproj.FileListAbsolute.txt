@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. USB Flash Drives\bin\Debug\net7.0\A. USB Flash Drives.exe
+E:\C#\C# Code Practice\Assignment 1\A. USB Flash Drives\bin\Debug\net7.0\A. USB Flash Drives.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. USB Flash Drives\bin\Debug\net7.0\A. USB Flash Drives.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. USB Flash Drives\bin\Debug\net7.0\A. USB Flash Drives.dll
+E:\C#\C# Code Practice\Assignment 1\A. USB Flash Drives\bin\Debug\net7.0\A. USB Flash Drives.pdb
+E:\C#\C# Code Practice\Assignment 1\A. USB Flash Drives\obj\Debug\net7.0\A. USB Flash Drives.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. USB Flash Drives\obj\Debug\net7.0\A. USB Flash Drives.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. USB Flash Drives\obj\Debug\net7.0\A. USB Flash Drives.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. USB Flash Drives\obj\Debug\net7.0\A. USB Flash Drives.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. USB Flash Drives\obj\Debug\net7.0\A. USB Flash Drives.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. USB Flash Drives\obj\Debug\net7.0\A. USB Flash Drives.dll
+E:\C#\C# Code Practice\Assignment 1\A. USB Flash Drives\obj\Debug\net7.0\refint\A. USB Flash Drives.dll
+E:\C#\C# Code Practice\Assignment 1\A. USB Flash Drives\obj\Debug\net7.0\A. USB Flash Drives.pdb
+E:\C#\C# Code Practice\Assignment 1\A. USB Flash Drives\obj\Debug\net7.0\A. USB Flash Drives.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. USB Flash Drives\obj\Debug\net7.0\ref\A. USB Flash Drives.dll

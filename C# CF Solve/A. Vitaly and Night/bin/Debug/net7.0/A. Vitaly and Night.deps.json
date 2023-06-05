@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "A. Vitaly and Night/1.0.0": {
+        "runtime": {
+          "A. Vitaly and Night.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "A. Vitaly and Night/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

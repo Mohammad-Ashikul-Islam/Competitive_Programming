@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "A. Quirky Quantifiers/1.0.0": {
+        "runtime": {
+          "A. Quirky Quantifiers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "A. Quirky Quantifiers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

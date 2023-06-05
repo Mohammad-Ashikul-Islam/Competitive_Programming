@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "A. Nauuo and Votes/1.0.0": {
+        "runtime": {
+          "A. Nauuo and Votes.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "A. Nauuo and Votes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

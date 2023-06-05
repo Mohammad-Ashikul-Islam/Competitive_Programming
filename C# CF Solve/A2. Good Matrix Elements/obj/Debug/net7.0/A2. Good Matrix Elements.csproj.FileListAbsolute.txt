@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A2. Good Matrix Elements\bin\Debug\net7.0\A2. Good Matrix Elements.exe
+E:\C#\C# Code Practice\Assignment 1\A2. Good Matrix Elements\bin\Debug\net7.0\A2. Good Matrix Elements.deps.json
+E:\C#\C# Code Practice\Assignment 1\A2. Good Matrix Elements\bin\Debug\net7.0\A2. Good Matrix Elements.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A2. Good Matrix Elements\bin\Debug\net7.0\A2. Good Matrix Elements.dll
+E:\C#\C# Code Practice\Assignment 1\A2. Good Matrix Elements\bin\Debug\net7.0\A2. Good Matrix Elements.pdb
+E:\C#\C# Code Practice\Assignment 1\A2. Good Matrix Elements\obj\Debug\net7.0\A2. Good Matrix Elements.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A2. Good Matrix Elements\obj\Debug\net7.0\A2. Good Matrix Elements.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A2. Good Matrix Elements\obj\Debug\net7.0\A2. Good Matrix Elements.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A2. Good Matrix Elements\obj\Debug\net7.0\A2. Good Matrix Elements.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A2. Good Matrix Elements\obj\Debug\net7.0\A2. Good Matrix Elements.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A2. Good Matrix Elements\obj\Debug\net7.0\A2. Good Matrix Elements.dll
+E:\C#\C# Code Practice\Assignment 1\A2. Good Matrix Elements\obj\Debug\net7.0\refint\A2. Good Matrix Elements.dll
+E:\C#\C# Code Practice\Assignment 1\A2. Good Matrix Elements\obj\Debug\net7.0\A2. Good Matrix Elements.pdb
+E:\C#\C# Code Practice\Assignment 1\A2. Good Matrix Elements\obj\Debug\net7.0\A2. Good Matrix Elements.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A2. Good Matrix Elements\obj\Debug\net7.0\ref\A2. Good Matrix Elements.dll

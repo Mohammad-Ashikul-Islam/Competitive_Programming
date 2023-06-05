@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Telephone Number\obj\Debug\net7.0\A. Telephone Number.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Telephone Number\obj\Debug\net7.0\A. Telephone Number.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Telephone Number\obj\Debug\net7.0\A. Telephone Number.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Telephone Number\obj\Debug\net7.0\A. Telephone Number.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Telephone Number\obj\Debug\net7.0\A. Telephone Number.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Telephone Number\bin\Debug\net7.0\A. Telephone Number.exe
+E:\C#\C# Code Practice\Assignment 1\A. Telephone Number\bin\Debug\net7.0\A. Telephone Number.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Telephone Number\bin\Debug\net7.0\A. Telephone Number.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Telephone Number\bin\Debug\net7.0\A. Telephone Number.dll
+E:\C#\C# Code Practice\Assignment 1\A. Telephone Number\bin\Debug\net7.0\A. Telephone Number.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Telephone Number\obj\Debug\net7.0\A. Telephone Number.dll
+E:\C#\C# Code Practice\Assignment 1\A. Telephone Number\obj\Debug\net7.0\refint\A. Telephone Number.dll
+E:\C#\C# Code Practice\Assignment 1\A. Telephone Number\obj\Debug\net7.0\A. Telephone Number.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Telephone Number\obj\Debug\net7.0\A. Telephone Number.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Telephone Number\obj\Debug\net7.0\ref\A. Telephone Number.dll

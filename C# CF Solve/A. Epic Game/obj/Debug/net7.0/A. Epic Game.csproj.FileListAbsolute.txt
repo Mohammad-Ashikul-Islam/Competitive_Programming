@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Epic Game\bin\Debug\net7.0\A. Epic Game.exe
+E:\C#\C# Code Practice\Assignment 1\A. Epic Game\bin\Debug\net7.0\A. Epic Game.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Epic Game\bin\Debug\net7.0\A. Epic Game.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Epic Game\bin\Debug\net7.0\A. Epic Game.dll
+E:\C#\C# Code Practice\Assignment 1\A. Epic Game\bin\Debug\net7.0\A. Epic Game.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Epic Game\obj\Debug\net7.0\A. Epic Game.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Epic Game\obj\Debug\net7.0\A. Epic Game.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Epic Game\obj\Debug\net7.0\A. Epic Game.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Epic Game\obj\Debug\net7.0\A. Epic Game.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Epic Game\obj\Debug\net7.0\A. Epic Game.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Epic Game\obj\Debug\net7.0\A. Epic Game.dll
+E:\C#\C# Code Practice\Assignment 1\A. Epic Game\obj\Debug\net7.0\refint\A. Epic Game.dll
+E:\C#\C# Code Practice\Assignment 1\A. Epic Game\obj\Debug\net7.0\A. Epic Game.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Epic Game\obj\Debug\net7.0\A. Epic Game.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Epic Game\obj\Debug\net7.0\ref\A. Epic Game.dll

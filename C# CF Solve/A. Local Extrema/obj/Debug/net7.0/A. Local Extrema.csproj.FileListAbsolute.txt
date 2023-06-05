@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Local Extrema\bin\Debug\net7.0\A. Local Extrema.exe
+E:\C#\C# Code Practice\Assignment 1\A. Local Extrema\bin\Debug\net7.0\A. Local Extrema.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Local Extrema\bin\Debug\net7.0\A. Local Extrema.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Local Extrema\bin\Debug\net7.0\A. Local Extrema.dll
+E:\C#\C# Code Practice\Assignment 1\A. Local Extrema\bin\Debug\net7.0\A. Local Extrema.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Local Extrema\obj\Debug\net7.0\A. Local Extrema.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Local Extrema\obj\Debug\net7.0\A. Local Extrema.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Local Extrema\obj\Debug\net7.0\A. Local Extrema.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Local Extrema\obj\Debug\net7.0\A. Local Extrema.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Local Extrema\obj\Debug\net7.0\A. Local Extrema.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Local Extrema\obj\Debug\net7.0\A. Local Extrema.dll
+E:\C#\C# Code Practice\Assignment 1\A. Local Extrema\obj\Debug\net7.0\refint\A. Local Extrema.dll
+E:\C#\C# Code Practice\Assignment 1\A. Local Extrema\obj\Debug\net7.0\A. Local Extrema.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Local Extrema\obj\Debug\net7.0\A. Local Extrema.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Local Extrema\obj\Debug\net7.0\ref\A. Local Extrema.dll

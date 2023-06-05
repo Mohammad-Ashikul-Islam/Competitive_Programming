@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Quirky Quantifiers\bin\Debug\net7.0\A. Quirky Quantifiers.exe
+E:\C#\C# Code Practice\Assignment 1\A. Quirky Quantifiers\bin\Debug\net7.0\A. Quirky Quantifiers.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Quirky Quantifiers\bin\Debug\net7.0\A. Quirky Quantifiers.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Quirky Quantifiers\bin\Debug\net7.0\A. Quirky Quantifiers.dll
+E:\C#\C# Code Practice\Assignment 1\A. Quirky Quantifiers\bin\Debug\net7.0\A. Quirky Quantifiers.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Quirky Quantifiers\obj\Debug\net7.0\A. Quirky Quantifiers.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Quirky Quantifiers\obj\Debug\net7.0\A. Quirky Quantifiers.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Quirky Quantifiers\obj\Debug\net7.0\A. Quirky Quantifiers.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Quirky Quantifiers\obj\Debug\net7.0\A. Quirky Quantifiers.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Quirky Quantifiers\obj\Debug\net7.0\A. Quirky Quantifiers.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Quirky Quantifiers\obj\Debug\net7.0\A. Quirky Quantifiers.dll
+E:\C#\C# Code Practice\Assignment 1\A. Quirky Quantifiers\obj\Debug\net7.0\refint\A. Quirky Quantifiers.dll
+E:\C#\C# Code Practice\Assignment 1\A. Quirky Quantifiers\obj\Debug\net7.0\A. Quirky Quantifiers.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Quirky Quantifiers\obj\Debug\net7.0\A. Quirky Quantifiers.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Quirky Quantifiers\obj\Debug\net7.0\ref\A. Quirky Quantifiers.dll

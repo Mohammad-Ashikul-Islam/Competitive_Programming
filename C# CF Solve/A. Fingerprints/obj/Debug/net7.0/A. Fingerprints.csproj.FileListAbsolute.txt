@@ -1,0 +1,15 @@
+E:\C#\C# Code Practice\Assignment 1\A. Fingerprints\bin\Debug\net7.0\A. Fingerprints.exe
+E:\C#\C# Code Practice\Assignment 1\A. Fingerprints\bin\Debug\net7.0\A. Fingerprints.deps.json
+E:\C#\C# Code Practice\Assignment 1\A. Fingerprints\bin\Debug\net7.0\A. Fingerprints.runtimeconfig.json
+E:\C#\C# Code Practice\Assignment 1\A. Fingerprints\bin\Debug\net7.0\A. Fingerprints.dll
+E:\C#\C# Code Practice\Assignment 1\A. Fingerprints\bin\Debug\net7.0\A. Fingerprints.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Fingerprints\obj\Debug\net7.0\A. Fingerprints.csproj.AssemblyReference.cache
+E:\C#\C# Code Practice\Assignment 1\A. Fingerprints\obj\Debug\net7.0\A. Fingerprints.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C# Code Practice\Assignment 1\A. Fingerprints\obj\Debug\net7.0\A. Fingerprints.AssemblyInfoInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Fingerprints\obj\Debug\net7.0\A. Fingerprints.AssemblyInfo.cs
+E:\C#\C# Code Practice\Assignment 1\A. Fingerprints\obj\Debug\net7.0\A. Fingerprints.csproj.CoreCompileInputs.cache
+E:\C#\C# Code Practice\Assignment 1\A. Fingerprints\obj\Debug\net7.0\A. Fingerprints.dll
+E:\C#\C# Code Practice\Assignment 1\A. Fingerprints\obj\Debug\net7.0\refint\A. Fingerprints.dll
+E:\C#\C# Code Practice\Assignment 1\A. Fingerprints\obj\Debug\net7.0\A. Fingerprints.pdb
+E:\C#\C# Code Practice\Assignment 1\A. Fingerprints\obj\Debug\net7.0\A. Fingerprints.genruntimeconfig.cache
+E:\C#\C# Code Practice\Assignment 1\A. Fingerprints\obj\Debug\net7.0\ref\A. Fingerprints.dll
