@@ -1,3 +1,0 @@
-This is a file created by my program !
-I'm so happy !
-This Is mode testing !
