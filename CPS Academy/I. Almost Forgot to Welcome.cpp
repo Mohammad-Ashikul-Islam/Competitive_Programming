@@ -47,11 +47,7 @@ int main()
 {
     optimize();
 
-    string s,p;
-    cin >> s >> p;
-    for(ll i=0; i<p.size(); i++) cout << (char)s[i] << (char) p[i];
-    if(s.size()-p.size()==1) cout << (char)s[s.size()-1];
-    cout << endl;
+    cout << "Welcome to ICPC Dhaka Regional Online Preliminary Contest, 2019" << endl;
 
     return 0;
 }

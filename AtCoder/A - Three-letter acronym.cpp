@@ -47,11 +47,9 @@ int main()
 {
     optimize();
 
-    string s,p;
-    cin >> s >> p;
-    for(ll i=0; i<p.size(); i++) cout << (char)s[i] << (char) p[i];
-    if(s.size()-p.size()==1) cout << (char)s[s.size()-1];
-    cout << endl;
+    string s,p,q;
+    cin >> s >> p >> q;
+    cout << (char)toupper(s[0]) << (char)toupper(p[0]) << (char)toupper(q[0]) << endl;
 
     return 0;
 }

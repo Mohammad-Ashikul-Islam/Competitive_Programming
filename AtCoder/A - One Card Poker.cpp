@@ -47,11 +47,13 @@ int main()
 {
     optimize();
 
-    string s,p;
-    cin >> s >> p;
-    for(ll i=0; i<p.size(); i++) cout << (char)s[i] << (char) p[i];
-    if(s.size()-p.size()==1) cout << (char)s[s.size()-1];
-    cout << endl;
+    ll a,b;
+    cin >> a >> b;
+    if(a==b) cout << "Draw\n";
+    else if(a==1) cout << "Alice\n";
+    else if(b==1) cout << "Bob\n";
+    else if(a>b) cout << "Alice\n";
+    else cout << "Bob\n";
 
     return 0;
 }

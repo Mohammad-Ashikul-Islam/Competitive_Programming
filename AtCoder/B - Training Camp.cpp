@@ -41,17 +41,20 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
-
+ll m = 1e9+7;
 
 int main()
 {
     optimize();
 
-    string s,p;
-    cin >> s >> p;
-    for(ll i=0; i<p.size(); i++) cout << (char)s[i] << (char) p[i];
-    if(s.size()-p.size()==1) cout << (char)s[s.size()-1];
-    cout << endl;
+    ll x;
+    cin >> x;
+    ll ans = 1;
+    for(ll i=1; i<=x; i++){
+        ans = ans*(i%m);
+        ans = ans%m;
+    }
+    cout << ans%m << endl;
 
     return 0;
 }

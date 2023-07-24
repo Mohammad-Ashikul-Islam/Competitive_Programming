@@ -47,11 +47,21 @@ int main()
 {
     optimize();
 
-    string s,p;
-    cin >> s >> p;
-    for(ll i=0; i<p.size(); i++) cout << (char)s[i] << (char) p[i];
-    if(s.size()-p.size()==1) cout << (char)s[s.size()-1];
-    cout << endl;
-
+    string s;
+    cin >> s;
+    ll i,left,right;
+    for(i=0; i<s.size(); i++){
+        if(s[i]=='A'){
+            left = i+1;
+            break;
+        }
+    }
+    for(i=s.size()-1; i>=0; i--){
+        if(s[i]=='Z'){
+            right = i+1;
+            break;
+        }
+    }
+    cout << right-left+1 << endl;
     return 0;
 }
