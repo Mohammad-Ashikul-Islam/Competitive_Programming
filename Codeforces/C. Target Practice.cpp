@@ -41,13 +41,36 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
-
+int ara[10][10] = {
+    {1,1,1,1,1,1,1,1,1,1},
+    {1,2,2,2,2,2,2,2,2,1},
+    {1,2,3,3,3,3,3,3,2,1},
+    {1,2,3,4,4,4,4,3,2,1},
+    {1,2,3,4,5,5,4,3,2,1},
+    {1,2,3,4,5,5,4,3,2,1},
+    {1,2,3,4,4,4,4,3,2,1},
+    {1,2,3,3,3,3,3,3,2,1},
+    {1,2,2,2,2,2,2,2,2,1},
+    {1,1,1,1,1,1,1,1,1,1}
+};
 
 int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        vector<string> v(10);
+        for(ll i=0; i<10; i++) cin >> v[i];
+        ll ans=0;
+        for(ll i=0; i<10; i++){
+            for(ll j=0; j<10; j++){
+                if(v[i][j]=='X') ans += ara[i][j];
+            }
+        }
+        cout << ans << endl;
+    }
 
     return 0;
 }

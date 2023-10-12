@@ -47,7 +47,28 @@ int main()
 {
     optimize();
 
-
-
+    ll n;
+    cin >> n;
+    vector<pair<ll,ll>> v;
+    for(ll i=0; i<n; i++){
+        ll f,s;
+        cin >> f >> s;
+        v.push_back(make_pair(s,f));
+    }
+    sort(v.rbegin(),v.rend());
+    ll ans = 0;
+    if(v[0].second != v[1].second) ans = v[0].first + v[1].first;
+    else{
+        ll x = v[0].first, y = v[1].first;
+        ans =max(x,y)+((min(x,y)/2));
+        for(ll i=2; i<v.size(); i++){
+            if(v[i].second == v[0].second) continue;
+            else{
+                ans = max(ans, (v[0].first+v[i].first));
+                break;
+            }
+        }
+    }
+    cout << ans << endl;
     return 0;
 }

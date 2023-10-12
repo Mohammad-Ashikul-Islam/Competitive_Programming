@@ -47,7 +47,15 @@ int main()
 {
     optimize();
 
-
-
+    ll a, b, c, d;
+    cin >> a >> b >> c >> d;
+    a = a % 100;
+    b = b % 100;
+    c = c % 100;
+    d = d % 100;
+    ll ans = a*b*c*d;
+    ans = ans%100;
+    if(ans<=9) cout << 0 << ans << endl;
+    else cout << ans%100 << endl;
     return 0;
 }

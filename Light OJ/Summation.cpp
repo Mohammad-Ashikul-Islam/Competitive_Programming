@@ -47,7 +47,21 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
+        ll sum=0;
+        sum+=n%10;
+        ll temp;
+        while(n){
+            temp = n%10;
+            n/=10;
+        }
+        sum+=temp;
+        cout << "Sum = " << sum << endl;
+    }
 
     return 0;
 }

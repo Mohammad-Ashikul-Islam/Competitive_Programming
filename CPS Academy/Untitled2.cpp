@@ -47,7 +47,21 @@ int main()
 {
     optimize();
 
-
-
+    ll m,n;
+    cin >> m >> n;
+    ll ara[m+1][n+1];
+    for(ll i=0; i<m; i++){
+        for(ll j=0; j<n; j++) cin >> ara[i][j];
+    }
+    ll x;
+    cin >> x;
+    bool flag = false;
+    for(ll i=0; i<m; i++){
+        for(ll j=0; j<n; j++) {
+            if(ara[i][j]==x) flag=true;
+        }
+    }
+    if(flag) cout << "will take number\n";
+    else cout << "will not take number\n";
     return 0;
 }

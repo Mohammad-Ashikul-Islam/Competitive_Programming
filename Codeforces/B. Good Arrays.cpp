@@ -47,7 +47,22 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
+        vector<ll> v(n);
+        ll i,one=0,others=0,other_sum=0;
+        for(i=0; i<n; i++){
+            cin >> v[i];
+            if(v[i]==1) one++;
+            else others++,other_sum+=v[i];
+        }
+        if(n==1) cout << "NO\n";
+        else if(other_sum-others >=one) cout << "YES\n";
+        else cout << "NO\n";
+    }
 
     return 0;
 }

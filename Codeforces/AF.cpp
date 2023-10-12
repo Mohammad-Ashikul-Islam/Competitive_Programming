@@ -47,7 +47,14 @@ int main()
 {
     optimize();
 
-
-
+    string s;
+    cin >> s;
+    for(ll i=s.size()-1; i>=0; i--){
+        ll num= s[i]-'0';
+        if(9-num<num) num = 9-num;
+        if(i==0 && num==0) continue;
+        s[i] = num+'0';
+    }
+    cout << s << endl;
     return 0;
 }

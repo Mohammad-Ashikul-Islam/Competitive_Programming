@@ -47,7 +47,24 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll sum,ans=-1;
+        cin >> sum;
+        ll left=0, right=sum;
+        while(left<=right){
+            ll mid = left+(right-left)/2;
+            if((mid*(mid+1))/2 == sum){
+                ans = mid;
+                break;
+            }
+            if((mid*(mid+1))/2 > sum) right = mid-1;
+            else left = mid+1;
+        }
+        if(ans==-1) cout << "NAI\n";
+        else cout << ans << endl;
+    }
 
     return 0;
 }

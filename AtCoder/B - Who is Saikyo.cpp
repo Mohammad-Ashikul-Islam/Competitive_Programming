@@ -47,7 +47,22 @@ int main()
 {
     optimize();
 
-
-
+    ll n,q;
+    cin >> n >> q;
+    ll ara[n+1]={0};
+    for(ll tc=0; tc<q; tc++){
+        ll x,y;
+        cin >> x >> y;
+        ara[y]=1;
+    }
+    ll ans,cnt=0;
+    for(ll i=1; i<=n; i++){
+        if(ara[i]==0){
+            cnt++;
+            ans = i;
+        }
+    }
+    if(cnt==1) cout << ans << endl;
+    else cout << -1 << endl;
     return 0;
 }

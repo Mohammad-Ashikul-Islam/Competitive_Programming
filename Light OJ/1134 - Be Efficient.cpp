@@ -47,7 +47,26 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    for(ll tc=1; tc<=t; tc++){
+        ll m,n;
+        cin >> m >> n;
+        ll ara[m];
+        for(ll i=0; i<m; i++) cin >> ara[i];
+        ll psum[m+1];
+        psum[0]=0;
+        for(ll i=1; i<=m; i++) psum[i] = psum[i-1]+ara[i-1];
+        for(ll i=1; i<=m; i++) psum[i] %= n;
+        map<ll,ll> mp;
+        for(ll i=0; i<=m; i++) mp[ psum[i] ]++;
+        ll ans=0;
+        for(ll i=m; i>0; i--){
+            mp[psum[i]]--;
+            ans+=mp[ psum[i] ];
+        }
+        cout << "Case "<<tc<<": "<<ans << endl;
+    }
 
     return 0;
 }

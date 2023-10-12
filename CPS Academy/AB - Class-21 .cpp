@@ -47,7 +47,19 @@ int main()
 {
     optimize();
 
-
-
+    ll n;
+    cin >> n;
+    ll ans;
+    vector<ll> v(n);
+    for(ll i=0; i<n; i++) cin >> v[i];
+    for(ll i=0; i<n; i++){
+        if(i==0){
+            ans = v[i];
+            continue;
+        }
+        if(v[i]>v[i-1]) ans = v[i];
+        else break;
+    }
+    cout << ans << endl;
     return 0;
 }

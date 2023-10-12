@@ -47,7 +47,19 @@ int main()
 {
     optimize();
 
-
-
+    ll n,mn,mx,sum=0;
+    cin >> n;
+    for(ll i=0; i<n; i++){
+        ll x;
+        cin >> x;
+        if(i==0){
+            mn=x;
+            mx = x;
+        }
+        sum+=x;
+        mn = min(mn,x);
+        mx = max(mx,x);
+    }
+    cout << mn << " " << mx << " " << sum << endl;
     return 0;
 }

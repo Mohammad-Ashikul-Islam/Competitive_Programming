@@ -1,3 +1,4 @@
+//unsolved
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -42,12 +43,51 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
+bool isPalindrome(vector<ll>& v)
+{
+    if(count(v.begin(),v.end(),v[0])== v.size()) return false;
+    stack<ll> st;
+    for(ll i=0; i<v.size(); i++){
+        if(st.empty()) st.push(v[i]);
+        else{
+            if(st.top()==v[i]) st.pop();
+            else st.push(v[i]);
+        }
+    }
+    if(st.size()==0 || st.size()==1) return true;
+    else return false;
+}
 
 int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
+        vector<ll> v(n);
+        for(ll i=0; i<n; i++) cin >> v[i];
+        sort(v.begin(),v.end());
+        set<ll> s,p;
+        ll turn = 1;
+        for(ll i=0; i<v.size(); i++){
+            if(turn==1){
+                ll sz = s.size();
+                s.insert(v[i]);
+                if(s.size()!=sz) turn = 2;
+            }
+            else{
+                ll sz = p.size();
+                p.insert(v[i]);
+                if(p.size() != sz) turn = 1;
+            }
+        }
+        bool palindrome = isPalindrome(v);
+        if(palindrome && (v.size())%2==1 ) cout << min(s.size(),p.size())+1 << endl;
+        else cout << min(s.size(),p.size()) << endl;
+    }
 
     return 0;
 }

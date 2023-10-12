@@ -47,7 +47,24 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll m,n;
+        cin >> m >> n;
+        string s,p;
+        cin >> s >> p;
+        ll sarray[26] = {0};
+        for(ll i=0; i<s.size(); i++) sarray[ s[i]-'a' ]++;
+        ll ans = INT_MAX;
+        ll parray[26]={0};
+        for(ll i=0; i<p.size(); i++) parray[ p[i]-'a']++;
+        for(ll i=0; i<26; i++){
+            if(parray[i]==0) continue;
+            ans = min(ans,sarray[i]/parray[i]);
+        }
+        cout << ans << endl;
+    }
 
     return 0;
 }

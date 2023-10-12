@@ -47,7 +47,27 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n,k;
+        cin >> n >> k;
+        string s;
+        cin >> s;
+        ll ans=0,i;
+        for(i=0; i<s.size(); ){
+            if(s[i]=='B'){
+                ans++;
+                ll temp = 1;
+                while(temp<=k) {
+                    i++;
+                    temp++;
+                }
+            }
+            else i++;
+        }
+        cout << ans << endl;
+    }
 
     return 0;
 }

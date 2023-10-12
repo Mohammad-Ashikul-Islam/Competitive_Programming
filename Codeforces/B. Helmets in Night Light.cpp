@@ -47,7 +47,34 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        ll cost;
+        cin >> n >> cost;
+        ll sum=cost;
+        ll cnt=1;
+        vector<ll> people(n),peoplecost(n);
+        for(ll i=0; i<n; i++) cin >> people[i];
+        for(ll i=0; i<n; i++) cin >> peoplecost[i];
+        vector<pair<ll,ll>> v;
+        for(ll i=0; i<n; i++) v.push_back({peoplecost[i],people[i]});
+        sort(v.begin(),v.end());
+        for(ll i=0; cnt!=n && i<n; i++){
+            if(v[i].first<cost){
+                ll portion = n-cnt;
+                portion = min(portion,v[i].second);
+                cnt += portion;
+                sum += portion*v[i].first;
+            }
+            else break;
+        }
+        if(cnt < n){
+            sum += (n-cnt)*cost;
+        }
+        cout << sum << endl;
+    }
 
     return 0;
 }

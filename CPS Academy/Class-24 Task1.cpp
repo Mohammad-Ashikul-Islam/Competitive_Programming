@@ -46,7 +46,14 @@ ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 int main()
 {
     optimize();
-
+    ll t;
+    cin >> t;
+    while(t--){
+        string s;
+        cin >> s;
+        if(s.find("010") != string::npos || s.find("101") != string::npos) cout << "Good\n";
+        else cout << "Bad\n";
+    }
 
 
     return 0;

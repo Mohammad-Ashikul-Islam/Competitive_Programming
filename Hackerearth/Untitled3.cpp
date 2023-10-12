@@ -47,7 +47,11 @@ int main()
 {
     optimize();
 
-
+    string s;
+    cin >> s;
+    map<char,int> m;
+    for(auto i:s) m[i]++;
+    for(auto it:m) cout << (char)it.first << " : " << it.second << endl;
 
     return 0;
 }

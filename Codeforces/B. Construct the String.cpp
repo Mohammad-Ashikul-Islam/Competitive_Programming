@@ -47,7 +47,24 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n,a,b;
+        cin >> n >> a >> b;
+        string s;
+        for(ll i=0; i<b; i++) s.push_back('a'+i);
+        if(b>n) s.resize(n);
+        for(ll i=b,j=0; i<a; i++,j++){
+            if(j==b) j=0;
+            s.push_back(s[j]);
+        }
+        for(ll i=a,j=0; i<n; i++,j++){
+            if(j==a) j=0;
+            s.push_back(s[j]);
+        }
+        cout << s << endl;
+    }
 
     return 0;
 }

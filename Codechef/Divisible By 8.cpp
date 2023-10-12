@@ -47,7 +47,42 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
+        string s,p;
+        cin >> s;
+        for(ll i=s.size()-1; i>=0 && p.size()<3; i--){
+            p.push_back(s[i]);
+            s.pop_back();
+        }
+        reverse(p.begin(),p.end());
+        ll num = stoll(p,nullptr,10);
+        ll num_stored=num;
+        num = (num/10)*10;
+        num+=9;
+        while(num%8 != 0){
+            num--;
+        }
+        string q = to_string(num);
+        if(num_stored%8==0) s+=p;
+        else if(p.size()==q.size()) s+=q;
+        else{
+            if(p.size()-q.size()==1){
+                s.push_back(p[0]);
+                s.push_back(q[0]);
+                s.push_back(q[1]);
+            }
+            else{
+                s.push_back(p[0]);
+                s.push_back(p[1]);
+                s.push_back(q[0]);
+            }
+        }
+        cout << s << endl;
+    }
 
     return 0;
 }

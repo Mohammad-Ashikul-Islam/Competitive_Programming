@@ -47,7 +47,18 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
+        if(n==0) cout << 1 << endl;
+        else{
+            ll ans=1;
+            for(ll i=1; i<=n; i++) ans*=i;
+            cout << ans << endl;
+        }
+    }
 
     return 0;
 }

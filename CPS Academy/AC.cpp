@@ -47,7 +47,25 @@ int main()
 {
     optimize();
 
-
-
+    ll m,n;
+    cin >> m >> n;
+    ll ara[m+1][n+1];
+    for(ll i=0; i<m; i++){
+        for(ll j=0; j<n; j++) cin >> ara[i][j];
+    }
+    vector<ll> v(n),ans;
+    for(ll i=0; i<m; i++) ans.push_back(0);
+    for(ll i=0; i<n; i++) cin >> v[i];
+    for(ll i=0; i<m; i++){
+        for(ll j=0; j<n; j++) {
+            ara[i][j] *= v[j];
+            ans[i] += ara[i][j];
+        }
+    }
+    for(ll i=0; i<ans.size(); i++){
+        //if(i!=0) cout << " ";
+        cout << ans[i] << endl;
+    }
+    //cout << endl;
     return 0;
 }

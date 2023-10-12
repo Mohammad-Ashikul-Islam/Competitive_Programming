@@ -47,7 +47,14 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        string s;
+        getline(cin>>ws, s);
+        if(s.size()<=10) cout << s << endl;
+        else cout << (char)s[0] << s.size()-2 << (char) s[s.size()-1] << endl;
+    }
 
     return 0;
 }

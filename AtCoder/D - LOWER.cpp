@@ -47,7 +47,42 @@ int main()
 {
     optimize();
 
-
-
+    ll len;
+    cin >> len;
+    string s;
+    cin >> s;
+    ll n;
+    cin >> n;
+    vector<int> ot,si;
+    vector<char> ch;
+    ll last_i=-1;
+    for(ll i=0; i<n; i++){
+        int a,b;
+        char c;
+        cin >> a >> b >> c;
+        ot.push_back(a);
+        si.push_back(b-1);
+        ch.push_back(c);
+        if(a==2 || a==3) last_i = i;
+    }
+    if(last_i==-1) last_i = n;
+    for(ll i=0; i<last_i; i++){
+        if(ot[i]==2 || ot[i]==3) continue;
+        else{
+            s[ si[i] ] = ch[i];
+        }
+    }
+    if(last_i != n){
+        if(ot[last_i]==2){
+            for(ll j=0; j<s.size(); j++) s[j]=tolower(s[j]);
+        }
+        else{
+            for(ll j=0; j<s.size(); j++) s[j]=toupper(s[j]);
+        }
+    }
+    for(ll i=last_i+1; i<n; i++){
+        s[ si[i] ] = ch[i];
+    }
+    cout << s << endl;
     return 0;
 }

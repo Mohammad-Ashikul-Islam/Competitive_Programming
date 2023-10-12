@@ -47,7 +47,11 @@ int main()
 {
     optimize();
 
-
+    string s;
+    cin >> s;
+    ll sum = 0;
+    for( ll i=0; i<s.size(); i++ ) sum += s[i]-'0';
+    cout << sum << endl;
 
     return 0;
 }

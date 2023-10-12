@@ -47,7 +47,13 @@ int main()
 {
     optimize();
 
-
+    string s;
+    cin >> s;
+    ll ara[26] = {0};
+    for( ll i=0; i<s.size(); i++ ) ara[ s[i]-'a' ]++;
+    for( ll i=0; i<26; i++ ){
+        if( ara[i] != 0 ) cout << (char) (i+'a') << " : " << ara[i] << endl;
+    }
 
     return 0;
 }

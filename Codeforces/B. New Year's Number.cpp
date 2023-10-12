@@ -46,8 +46,25 @@ ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 int main()
 {
     optimize();
+    ll sz = 1e6+2021;
+    ll ara[sz] = {0};
+    ara[2020]=1;
+    ara[2021]=1;
+    for(ll i=1; i<=1e6-2020; i++){
+        if(ara[i]){
+            ara[2020+i]=1;
+            ara[2021+i]=1;
+        }
+    }
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
+        if(ara[n]) cout << "YES\n";
+        else cout << "NO\n";
+    }
 
     return 0;
 }

@@ -47,7 +47,34 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
+        vector<ll> v(n);
+        for(ll i=0; i<n; i++) cin >> v[i];
+        sort(v.begin(),v.end());
+        vector<ll> left, right;
+        left.push_back(v[0]);
+        bool divisible = false;
+        for(ll i=1; i<v.size(); i++){
+             if(left[0]==v[i]) left.push_back(v[i]);
+             else if(left[0]%v[i]==0) left.push_back(v[i]);
+             else right.push_back(v[i]);
+        }
+        if(left.empty() || right.empty()) divisible = true;
+        if(divisible) cout << -1 << endl;
+        else{
+            cout << left.size() << " " << right.size() << endl;
+            cout << left[0];
+            for(ll i=1; i<left.size(); i++) cout << " " << left[i];
+            cout << endl;
+            cout << right[0];
+            for(ll i=1; i<right.size(); i++) cout << " " << right[i];
+            cout << endl;
+        }
+    }
 
     return 0;
 }

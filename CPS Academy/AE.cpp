@@ -47,7 +47,32 @@ int main()
 {
     optimize();
 
-
-
+    string s;
+    cin >> s;
+    int ara[26] = {0};
+    for(ll i=0; i<s.size(); i++) ara[s[i]-'A']++;
+    ll odd=0;
+    for(ll i=0; i<26; i++){
+        if(ara[i]%2==1) odd++;
+    }
+    if(odd>1) cout << "NO SOLUTION\n";
+    else{
+        ll odd_char=-1;
+        for(ll i=0; i<26; i++){
+            if(ara[i]%2==1) odd_char=i;
+            }
+        string ans;
+        for(ll i=0; i<26; i++){
+            if(ara[i]%2==1) continue;
+            for(ll j=0; j<ara[i]/2; j++) ans.push_back(i+'A');
+        }
+        string temp = ans;
+        reverse(temp.begin(),temp.end());
+        if(odd_char != -1){
+            for(ll i=0; i<ara[odd_char]; i++) ans.push_back(odd_char+'A');
+        }
+        ans += temp;
+        cout << ans << endl;
+    }
     return 0;
 }

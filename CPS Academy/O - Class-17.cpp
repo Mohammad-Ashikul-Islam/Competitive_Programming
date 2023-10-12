@@ -47,7 +47,13 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    for(ll tc=1; tc<=t; tc++){
+        ll a,b;
+        cin >> a >> b;
+        cout << "Case "<< tc << ": " << a+b << endl;
+    }
 
     return 0;
 }

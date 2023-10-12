@@ -47,7 +47,13 @@ int main()
 {
     optimize();
 
+    ll n,tc=0;
 
+    while(cin>>n){
+        tc++;
+        if(n==0) break;
+        cout << "Case "<< tc << ": " << n << endl;
+    }
 
     return 0;
 }

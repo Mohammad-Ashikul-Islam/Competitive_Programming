@@ -47,7 +47,25 @@ int main()
 {
     optimize();
 
-
-
+    ll n;
+    cin >> n;
+    vector<ll> v(n+1);
+    ll sum = 0;
+    for(ll i=1; i<=n; i++){
+        cin >> v[i];
+        sum += v[i];
+    }
+    ll d = (sum/2)+1;
+    ll month,day,temp=0;
+    for(ll i=1; i<=n; i++){
+        if(temp+v[i] < d){
+            temp += v[i];
+            continue;
+        }
+        month = i;
+        day = d-temp;
+        break;
+    }
+    cout << month << " " << day << endl;
     return 0;
 }

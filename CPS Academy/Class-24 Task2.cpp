@@ -47,7 +47,12 @@ int main()
 {
     optimize();
 
-
+    string s;
+    cin >> s;
+    string p = s;
+    reverse(p.begin(),p.end());
+    if(s == p) cout << "YES\n";
+    else cout << "NO\n";
 
     return 0;
 }

@@ -47,7 +47,19 @@ int main()
 {
     optimize();
 
-
-
+    ll l,r;
+    string s;
+    cin >> l >> r >> s;
+    l--;
+    r--;
+    char temp = s[l];
+    s[l] = s[r];
+    s[r] = temp;
+    //cout << s << endl;
+    string p;
+    for(ll i=l+1; i<r; i++) p.push_back(s[i]);
+    reverse(p.begin(),p.end());
+    for(ll i=l+1,j=0; i<r; i++,j++) s[i]=p[j];
+    cout << s << endl;
     return 0;
 }

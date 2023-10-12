@@ -47,7 +47,34 @@ int main()
 {
     optimize();
 
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
+        vector<ll> out,out2;
+        vector<vector<ll>> v;
+        for(ll i=0; i<n; i++){
+            vector<ll> temp;
+            v.push_back(temp);
+            ll x;
+            cin >> x;
+            for(ll j=0; j<x; j++){
+                ll y;
+                cin >> y;
+                v[i].push_back(y);
+                out.push_back(y);
+            }
+            sort(v[i].begin(),v[i].end());
+            out2.push_back(v[i][1]);
+        }
+        sort(out2.begin(),out2.end());
+        sort(out.begin(),out.end());
+        ll sum=0;
+        for(ll i=1; i<out2.size(); i++) sum+=out2[i];
+        cout << sum+out[0] << endl;
 
+    }
 
     return 0;
 }

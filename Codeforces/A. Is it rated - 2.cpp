@@ -14,7 +14,6 @@ typedef vector<pii> vii;
 typedef vector<pll> vll;
 typedef double dl;
 
-#define endl '\n'
 #define PB push_back
 #define F first
 #define S second
@@ -45,9 +44,12 @@ ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
 int main()
 {
-    optimize();
+    //optimize();
 
-
+    string s;
+    while(getline(cin>>ws,s)){
+        cout << "NO" << endl;
+    }
 
     return 0;
 }

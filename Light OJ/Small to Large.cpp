@@ -47,7 +47,16 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    for(ll tc=1; tc<=t; tc++){
+        vector<ll> v(3);
+        for(ll i=0; i<3; i++) cin >> v[i];
+        sort(v.begin(),v.end());
+        cout << "Case "<< tc << ":";
+        for(auto u:v) cout << " " << u;
+        cout << endl;
+    }
 
     return 0;
 }

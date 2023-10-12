@@ -47,7 +47,19 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
+        string s;
+        cin >> s;
+        ll ans=1;
+        for(ll i=0; i<s.size(); i++){
+            for(ll j=i; j<n && s[i]==s[j]; j++) ans = max(ans,j-i+1);
+        }
+        cout << ans+1 << endl;
+    }
 
     return 0;
 }

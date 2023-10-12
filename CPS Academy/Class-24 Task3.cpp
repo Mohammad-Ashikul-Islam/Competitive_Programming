@@ -47,7 +47,52 @@ int main()
 {
     optimize();
 
-
-
+    vector<string> v;
+    ll r,c;
+    cin >> r >> c;
+    for(ll i=0; i<r; i++){
+        string s;
+        cin >> s;
+        v.push_back(s);
+    }
+    ll x,y;
+    cin >> x >> y;
+    x--;
+    y--;
+    ll cnt=0;
+    if(x-1>=0){
+        if(v[x-1][y]=='x') cnt++;
+        if(y-1>=0){
+            if(v[x-1][y-1]=='x') cnt++;
+        }
+        else cnt++;
+        if(y+1 <c){
+            if(v[x-1][y+1]=='x') cnt++;
+        }
+        else cnt++;
+    }
+    else cnt+=3;
+    if(y-1>=0){
+        if(v[x][y-1]=='x') cnt++;
+    }
+    else cnt++;
+    if(y+1 < c){
+        if(v[x][y+1]=='x') cnt++;
+    }
+    else cnt++;
+    if(x+1<r){
+        if(v[x+1][y]=='x') cnt++;
+        if(y-1>=0){
+            if(v[x+1][y-1]=='x') cnt++;
+        }
+        else cnt++;
+        if(y+1 <c){
+            if(v[x+1][y+1]=='x') cnt++;
+        }
+        else cnt++;
+    }
+    else cnt += 3;
+    if(cnt == 8) cout << "yes\n";
+    else cout << "no\n";
     return 0;
 }

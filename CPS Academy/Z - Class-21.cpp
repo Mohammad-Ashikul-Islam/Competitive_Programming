@@ -47,7 +47,27 @@ int main()
 {
     optimize();
 
-
+    ll n;
+    cin >> n;
+    vector<ll> v1,v2,v3,v4;
+    v1.push_back(0);
+    v2.push_back(0);
+    v3.push_back(0);
+    v4.push_back(0);
+    for(ll i =0; i<n; i++){
+        ll num;
+        char ch;
+        cin >> ch >> num;
+        if(ch=='S') v1.push_back(num);
+        if(ch=='H') v2.push_back(num);
+        if(ch=='C') v3.push_back(num);
+        if(ch=='D') v4.push_back(num);
+    }
+    dbg("--Ans starts here--");
+    for(ll i=1; i<=13; i++) if(count(v1.begin(),v1.end(),i)==0) cout << "S " << i << endl;
+    for(ll i=1; i<=13; i++) if(count(v2.begin(),v2.end(),i)==0) cout << "H " << i << endl;
+    for(ll i=1; i<=13; i++) if(count(v3.begin(),v3.end(),i)==0) cout << "C " << i << endl;
+    for(ll i=1; i<=13; i++) if(count(v4.begin(),v4.end(),i)==0) cout << "D " << i << endl;
 
     return 0;
 }

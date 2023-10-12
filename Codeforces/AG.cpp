@@ -47,7 +47,26 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll b,beef,chicken,bp,cp,ans=0;
+        cin >> b >> beef >> chicken >> bp >> cp;
+        b = b/2;
+        if(bp>=cp){
+            ans += min(b,beef)*bp;
+            b -= min(b,beef);
+            ans += min(b,chicken)*cp;
+            b -= min(b,chicken);
+        }
+        else{
+            ans += min(b,chicken)*cp;
+            b -= min(b,chicken);
+            ans += min(b,beef)*bp;
+            b -= min(b,chicken);
+        }
+        cout << ans << endl;
+    }
 
     return 0;
 }

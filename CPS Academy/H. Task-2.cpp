@@ -47,7 +47,10 @@ int main()
 {
     optimize();
 
-
+    vector<ll> v(3);
+    for(ll i=0; i<3; i++) cin >> v[i];
+    sort(v.begin(),v.end());
+    cout << v[0] << " " << v[1] << " " << v[2] << endl;
 
     return 0;
 }

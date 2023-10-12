@@ -47,7 +47,40 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n,is,q;
+        cin >> n >> is >> q;
+        string s;
+        cin >> s;
+        ll l =s.size(),sum=is;
+        bool yes = false;
+        for(ll i=0; i<l; i++){
+            if(sum>=n) yes = true;
+            if(s[i]=='+') sum++;
+            else sum--;
+            if(sum>=n) yes = true;
+        }
+        if(yes==true){
+            cout << "YES\n";
+            continue;
+        }
+        bool maybe=false;
+        sum = is;
+        for(ll i=0; i<s.size(); i++){
+            ll tempis=is;
+            if(s[i]=='+') is++;
+            else is--;
+            ll cnt=0;
+            for(ll j=i+1; j<s.size(); j++){
+                if(s[j]=='+') cnt++;
+            }
+            if(tempis+cnt >=n || is+cnt >=n) maybe=true;
+        }
+        if(maybe) cout << "MAYBE\n";
+        else cout << "NO\n";
+    }
 
     return 0;
 }

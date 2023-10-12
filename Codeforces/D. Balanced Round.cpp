@@ -47,7 +47,25 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n,k;
+        cin >> n >> k;
+        vector<ll> v(n);
+        for( ll i=0; i<n; i++ ) cin >> v[i];
+        sort(v.begin(),v.end());
+        ll mx=1,c=1;
+        for(ll i=1; i<v.size(); i++){
+            if(v[i]-v[i-1]<=k){
+                c++;
+                mx = max(mx,c);
+            }
+            else c=1;
+        }
+        if(v.size()==1) cout << 0 << endl;
+        else cout << v.size()-mx << endl;
+    }
 
     return 0;
 }

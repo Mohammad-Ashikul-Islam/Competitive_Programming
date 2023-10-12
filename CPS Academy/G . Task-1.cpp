@@ -47,7 +47,9 @@ int main()
 {
     optimize();
 
-
+    ll a,b,c;
+    cin >> a >> b;
+    cout << 6-a-b << endl;
 
     return 0;
 }

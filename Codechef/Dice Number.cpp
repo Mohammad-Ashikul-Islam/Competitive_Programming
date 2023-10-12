@@ -47,7 +47,27 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        string s1, s2;
+        for(ll i=0; i<3; i++){
+            ll x;
+            cin >> x;
+            s1.push_back(x+'0');
+        }
+        for(ll i=0; i<3; i++){
+            ll x;
+            cin >> x;
+            s2.push_back(x+'0');
+        }
+        sort(s1.rbegin(),s1.rend());
+        sort(s2.rbegin(),s2.rend());
+        ll alice = stoll(s1,nullptr,10), bob = stoll(s2,nullptr,10);
+        if(alice == bob) cout << "Tie\n";
+        else if(alice>bob) cout << "Alice\n";
+        else cout << "Bob\n";
+    }
 
     return 0;
 }

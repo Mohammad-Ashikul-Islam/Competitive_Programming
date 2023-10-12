@@ -47,7 +47,16 @@ int main()
 {
     optimize();
 
-
+    ll a,b;
+    char ch;
+    while(cin >> a >> ch >> b){
+        if(ch=='?') break;
+        if(ch=='+') cout << a+b << endl;
+        if(ch=='-') cout << a-b << endl;
+        if(ch=='*') cout << a*b << endl;
+        if(ch=='/') cout << a/b << endl;
+        if(ch=='%') cout << a%b << endl;
+    }
 
     return 0;
 }

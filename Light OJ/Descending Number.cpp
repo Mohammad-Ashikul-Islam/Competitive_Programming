@@ -47,7 +47,17 @@ int main()
 {
     optimize();
 
-
+    ll i=1000;
+    while(i>0){
+        if(i%5==0){
+            cout << i;
+            i--;
+            continue;
+        }
+        else cout << " "<<i;
+        if(i%5==1) cout << endl;
+        i--;
+    }
 
     return 0;
 }

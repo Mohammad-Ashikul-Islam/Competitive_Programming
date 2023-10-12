@@ -47,7 +47,21 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
+        ll pos=0,neg=0;
+        for(ll i=0; i<n-1; i++){
+            ll x;
+            cin >> x;
+            x>=0?pos+=x : neg+=x;
+        }
+        if(pos==neg) cout << 0 << endl;
+        else if(pos>neg) cout << (pos+neg)*-1 << endl;
+        else cout << (neg+pos)*-1 << endl;
+    }
 
     return 0;
 }

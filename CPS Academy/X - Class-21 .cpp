@@ -47,7 +47,14 @@ int main()
 {
     optimize();
 
-
-
+    ll n;
+    cin >> n;
+    ll ans = 0;
+    for(ll i=1; i<=(4*n)-1; i++){
+        ll x;
+        cin >> x;
+        ans ^= x;
+    }
+    cout << ans << endl;
     return 0;
 }

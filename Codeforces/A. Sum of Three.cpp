@@ -47,7 +47,28 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
+        if(n<=6) {
+            cout << "NO\n";
+            continue;
+        }
+        ll n1=1,n2=2,n3=n-3;
+        for(ll i=0; i<1000; i++){
+            if(n<=0 || n2<=0 || n3<=0) break;
+            if(n1%3!=0 && n2%3!=0 && n3%3!=0 && n1!=n2 && n2!=n3 && n3!=n1) break;
+            n2++;
+            n3--;
+        }
+        if(n1%3!=0 && n2%3!=0 && n3%3!=0 && n1!=n2 && n2!=n3 && n3!=n1){
+            cout << "YES\n";
+            cout << n1 << " " << n2 << " " << n3 << endl;
+        }
+        else cout << "NO\n";
+    }
 
     return 0;
 }

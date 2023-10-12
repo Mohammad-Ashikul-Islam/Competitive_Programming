@@ -47,7 +47,14 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
+        if(n<=10) cout << n << " " << 0 << endl;
+        else cout << n-10 << " " << 10 << endl;
+    }
 
     return 0;
 }

@@ -46,7 +46,18 @@ ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 int main()
 {
     optimize();
-
+    ll t;
+    cin >> t;
+    while(t--){
+        vector<string> v(8);
+        for(ll i=0; i<8; i++) cin >> v[i];
+        bool flag=false;
+        for(ll i=0; i<8; i++){
+            if(count(v[i].begin(),v[i].end(),'R')==8) flag=true;
+        }
+        if(flag==true) cout << "R\n";
+        else cout << "B\n";
+    }
 
 
     return 0;

@@ -47,7 +47,15 @@ int main()
 {
     optimize();
 
-
-
+    ll n;
+    cin >> n;
+    ll ara[n+1][n+1];
+    for(ll i=0; i<n; i++){
+        for(ll j=0; j<n; j++) cin >> ara[i][j];
+    }
+    ll ans=0;
+    for(ll i=0,j=0; i<n; i++,j++) ans += ara[i][j];
+    for(ll i=0,j=n-1; i<n; i++,j--) ans -= ara[i][j];
+    cout << abs(ans) << endl;
     return 0;
 }

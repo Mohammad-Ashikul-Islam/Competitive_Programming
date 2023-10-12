@@ -47,7 +47,32 @@ int main()
 {
     optimize();
 
+    ll t;
+    cin >> t;
+    while(t--){
+        string s;
+        cin >> s;
+        ll ans = INT_MAX;
+        ll a=s[s.size()-1]-'0', b=s[s.size()-2]-'0';
+        if((b*10+a)%25==0){
+            ans = 0;
+            //continue;
+        }
+        else{
+            ll c=0;
+        for(ll i=s.size()-1; i>=0; i--,c++){
+            //ll c=0;
+            for(ll j=s.size()-1; j>i; j--){
+                ll x=s[i]-'0';
+                ll y=s[j]-'0';
+                if( (x*10+y)%25==0 ) ans = min(ans,c-1);
 
+                    }
+                }
+            }
+        //cout << "Ans Is: ";
+        cout << ans << endl;
+    }
 
     return 0;
 }

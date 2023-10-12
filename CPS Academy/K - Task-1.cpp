@@ -47,7 +47,18 @@ int main()
 {
     optimize();
 
-
-
+    ll a,b,c;
+    cin >> a >> b >> c;
+    if(c>=a){
+        c = c-a;
+        a = 0;
+    }
+    else{
+        a=a-c;
+        c=0;
+    }
+    if(c>=b) b=0;
+    else b=b-c;
+    cout << a << " " << b << endl;
     return 0;
 }

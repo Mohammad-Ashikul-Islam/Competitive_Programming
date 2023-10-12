@@ -47,7 +47,16 @@ int main()
 {
     optimize();
 
-
+    ll n,i;
+    cin >> n;
+    vector<ll> v(n);
+    for(i=0; i<n; i++) cin >> v[i];
+    ll mx=0;
+    for(i=1; i<n; i++){
+        if(v[i] >= v[mx]) mx = i;
+    }
+    if(mx==0) cout << 0 << endl;
+    else cout << v[mx]-v[0]+1 << endl;
 
     return 0;
 }

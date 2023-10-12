@@ -47,7 +47,18 @@ int main()
 {
     optimize();
 
-
+    ll n,q;
+    cin >> n >> q;
+    vector<ll> v(n);
+    for(ll i=0; i<n; i++) cin >> v[i];
+    while(q--){
+        ll x;
+        cin >> x;
+        auto it = lower_bound(v.begin(),v.end(),x)-v.begin();
+        if(it>=n) cout << -1 << endl;
+        else if(v[it]!=x) cout << -1 << endl;
+        else cout << it << endl;
+    }
 
     return 0;
 }

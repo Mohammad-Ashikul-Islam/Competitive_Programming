@@ -47,7 +47,7 @@ int main()
 {
     optimize();
 
-
+    for(ll i=0; i<1000; i++) cout << "Hello World\n";
 
     return 0;
 }

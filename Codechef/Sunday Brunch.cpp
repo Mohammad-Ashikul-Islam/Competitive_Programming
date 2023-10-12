@@ -47,7 +47,15 @@ int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    while(t--){
+        ll plates, each;
+        cin >> plates >> each;
+        ll ans = plates/each;
+        if(ans >20) ans = 20;
+        cout << ans << endl;
+    }
 
     return 0;
 }

@@ -47,7 +47,28 @@ int main()
 {
     optimize();
 
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
+        ll ara[n+1][n+1];
+        for(ll i=1; i<=n; i++){
+            for(ll j=1; j<=n; j++) ara[i][j]=0;
+        }
+        for(ll i=1; i<=n; i++) ara[i][i] = 1;
+        for(ll i=1,j=n; i<=n; i++,j--) ara[i][j]=1;
+        if(n%2){
+            ll m = (n/2)+1;
+            ara[m][m-1]=1;
+            ara[m-1][m]=1;
+        }
+        for(ll i=1; i<=n; i++){
+            for(ll j=1; j<=n; j++) cout << ara[i][j] << " ";
+            cout << endl;
+        }
 
+    }
 
     return 0;
 }

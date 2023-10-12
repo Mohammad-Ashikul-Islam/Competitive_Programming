@@ -42,12 +42,33 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
+//ll sz = 1e6+1;
+ll ara[(int)(1e6+1)];
 
 int main()
 {
     optimize();
 
-
+    ll t;
+    cin >> t;
+    for(ll tc=1; tc<=t; tc++){
+        for(ll i=0; i<1e6+1; i++) ara[i]=0;
+        ll n;
+        cin >> n;
+        for(ll i=0; i<n; i++){
+            ll x;
+            cin >> x;
+            ara[x]++;
+        }
+        cout << "Case "<< tc <<":" << endl;
+        ll q;
+        cin >> q;
+        for(ll i=0; i<q; i++){
+            ll p;
+            cin >> p;
+            cout << ara[p] << endl;
+        }
+    }
 
     return 0;
 }

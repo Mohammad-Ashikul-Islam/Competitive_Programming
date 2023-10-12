@@ -47,7 +47,20 @@ int main()
 {
     optimize();
 
-
-
+    ll n,k,m;
+    cin >> n >> k >> m;
+    ll current_sum = 0;
+    for(ll i=0; i<n-1; i++){
+        ll x;
+        cin >> x;
+        current_sum+=x;
+    }
+    for(ll i=0; i<=k; i++){
+        if((current_sum+i)/n >= m){
+            cout << i << endl;
+            return 0;
+        }
+    }
+    cout << -1 << endl;
     return 0;
 }

@@ -42,12 +42,32 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
+ll fnc(ll k)
+{
+    ll temp = 1;
+    for(ll j=1; j<=k; j++) temp*=2;
+    return temp-1;
+}
 
 int main()
 {
     optimize();
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
 
-
-
+        ll ans=-1;
+        for(ll i=1; ; i++){
+            ll denominator = fnc(i);
+            if(n%denominator==0){
+                ans = n/denominator;
+            }
+            if(denominator>n) break;
+        }
+        //cout << "Ans Is: ";
+        cout << ans << endl;
+    }
     return 0;
 }

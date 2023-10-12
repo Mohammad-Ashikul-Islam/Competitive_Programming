@@ -47,7 +47,14 @@ int main()
 {
     optimize();
 
-
+    ll m,n;
+    while(cin >> m >> n){
+        if(m==0 && n==0) break;
+        for(ll i=0; i<m; i++){
+            for(ll j=0; j<n; j++) cout << "#";
+            cout << endl;
+        }
+    }
 
     return 0;
 }

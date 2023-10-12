@@ -47,7 +47,39 @@ int main()
 {
     optimize();
 
-
-
+    ll n;
+    cin >> n;
+    ll baji_no[n+1];
+    bool ara[n+1][37];
+    for(ll i=1; i<=n; i++){
+        for(ll j=0; j<37; j++) ara[i][j]=0;
+    }
+    for(ll i=1; i<=n; i++){
+        ll x;
+        cin >> x;
+        baji_no[i]=x;
+        for(ll j=0; j<x; j++){
+            ll y;
+            cin >> y;
+            ara[i][y] = 1;
+        }
+    }
+    ll winner;
+    cin >> winner;
+    ll mn=101;
+    for(ll i=1; i<=n; i++){
+        if(ara[i][winner]==1) mn = min(mn,baji_no[i]);
+    }
+    vector<ll> ans;
+    for(ll i=1; i<=n; i++){
+        if(baji_no[i]==mn && ara[i][winner]==1) ans.push_back(i);
+    }
+    if(ans.size()==0) cout << 0 << endl;
+    else{
+        cout << ans.size() << endl;
+        cout << ans[0];
+        for(ll i=1; i<ans.size(); i++) cout << " " << ans[i];
+        cout << endl;
+    }
     return 0;
 }
