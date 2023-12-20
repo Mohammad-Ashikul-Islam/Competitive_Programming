@@ -1,3 +1,4 @@
+// ----> Mohammad Ashikul Islam, IIUC <----  //
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -45,14 +46,19 @@ ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
 int main()
 {
-    optimize();
+    //optimize();
 
-    ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    ll t;
+    cin >> t;
+    while(t--){
+        string s,p;
+        cin >> s >> p;
+        cout << s << endl << p << endl;
+        for(ll i=0; i<s.size(); i++){
+            if(s[i]==p[i]) cout << ".";
+            else cout << "*";
+        }
+        cout << endl << endl;
     }
 
     return 0;

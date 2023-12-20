@@ -1,3 +1,4 @@
+// ----> Mohammad Ashikul Islam, IIUC <----  //
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -47,15 +48,13 @@ int main()
 {
     optimize();
 
-    ll n;
-    cin >> n;
-    vector<ll> v(n);
-    for(ll i=0; i<n; i++) cin >> v[i];
-    ll ans = 0;
-    for(ll i=1; i<n; i++){
-        if(v[i]<v[i-1]) ans += v[i-1]-v[i];
+    set<ll> st;
+    for(ll i=0; i<10; i++){
+        ll x;
+        cin >> x;
+        x %=42;
+        st.insert(x);
     }
-    cout << ans << endl;
-
+    cout << st.size() << endl;
     return 0;
 }

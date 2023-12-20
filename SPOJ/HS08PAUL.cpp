@@ -42,17 +42,41 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
+const ll mx = 1e7+123;
+ll isPrime[mx],cntPrimes[mx];
+
+void primeGen()
+{
+    isPrime[2] = 1;
+    for(ll i=3; i<mx; i+=2) isPrime[i]=1;
+    ll range=sqrt(mx);
+    for(ll i=3; i<range; i+=2){
+        if(isPrime[i]==1){
+            for(ll j=i*i; j<mx; j+=i) isPrime[j]=0;
+        }
+    }
+}
 
 int main()
 {
     optimize();
+    primeGen();
 
-    ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    ll limX=3200,limY=60;
+    for(ll i=1; i<limX; i++){
+        for(ll j=1; j<limY; j++){
+            ll val = (i*i)+(j*j*j*j);
+            if(val<=mx && isPrime[val]==1) cntPrimes[val]=1;
+        }
+    }
+    for(ll i=1; i<=mx; i++) cntPrimes[i]+=cntPrimes[i-1];
+
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
+        cout << cntPrimes[n] << endl;
     }
 
     return 0;

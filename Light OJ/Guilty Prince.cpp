@@ -41,18 +41,50 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
+const ll mx=22;
+char adj[mx][mx];
+ll row,column;
+bool visited[mx][mx];
+ll cnt=0;
+ll dx[4] = { 1, -1, 0, 0 };
+ll dy[4] = { 0, 0, 1, -1 };
 
+void dfs(ll x, ll y){
+    visited[x][y] = 1;
+    cnt++;
+    for(ll i=0; i<4; i++){
+        ll next_x = x+dx[i], next_y = y+dy[i];
+        if(next_x>=1 && next_x<=row && next_y>=1 && next_y<=column && visited[next_x][next_y]==false && adj[next_x][next_y]!='#')
+            dfs(next_x,next_y);
+    }
+}
 
 int main()
 {
     optimize();
 
-    ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    ll t;
+    cin >> t;
+    for(ll tc=1; tc<=t; tc++){
+       ll x,y;
+       cin >> column >> row;
+       for(ll i=1; i<=row; i++){
+        for(ll j=1; j<=column; j++){
+            cin >> adj[i][j];
+            if(adj[i][j]=='@'){
+                x=i;
+                y=j;
+            }
+        }
+       }
+       for(ll i=1; i<=row; i++){
+        for(ll j=1; j<=column; j++)
+            visited[i][j]=false;
+       }
+
+        cnt=0;
+        dfs(x,y);
+        cout << "Case " << tc << ": " << cnt << endl;
     }
 
     return 0;

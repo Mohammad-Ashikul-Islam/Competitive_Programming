@@ -1,3 +1,4 @@
+// ----> Mohammad Ashikul Islam, IIUC <----  //
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -47,13 +48,10 @@ int main()
 {
     optimize();
 
-    ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
-    }
+    string s;
+    cin >> s;
+    if(s.find("COV") != string::npos) cout << "Veikur!\n";
+    else cout << "Ekki veikur!\n";
 
     return 0;
 }

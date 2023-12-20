@@ -1,3 +1,4 @@
+// ----> Mohammad Ashikul Islam, IIUC <----  //
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -32,7 +33,7 @@ const ll infLL = 9000000000000000000;
 #define sqr(a) ((a) * (a))
 
 #define optimize() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-#define fraction() cout.unsetf(ios::floatfield); cout.precision(10); cout.setf(ios::fixed,ios::floatfield);
+#define fraction() cout.unsetf(ios::floatfield); cout.precision(15); cout.setf(ios::fixed,ios::floatfield);
 #define file() freopen("input.txt","r",stdin);freopen("output.txt","w",stdout);
 
 #define dbg(args...) do {cerr << #args << " : "; faltu(args); } while(0)
@@ -46,14 +47,13 @@ ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 int main()
 {
     optimize();
+    double a=0.09144;
+    double b;
+    cin >> b;
+    fraction();
+    double ans=a*b;
+    cout << ans << endl;
 
-    ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
-    }
 
     return 0;
 }

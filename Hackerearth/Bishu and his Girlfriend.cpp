@@ -42,6 +42,26 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
+const ll mx = 1e3+123;
+vector<ll> adj[mx];
+ll visited[mx];
+
+void bfs(ll source)
+{
+    visited[source] = 1;
+    queue<ll> q;
+    q.push(source);
+    while(!q.empty()){
+        ll x = q.front();
+        q.pop();
+        for(ll i=0; i<adj[x].size(); i++){
+            if(visited[ adj[x][i] ] == -1){
+                visited[ adj[x][i] ] = visited[x]+1;
+                q.push( adj[x][i] );
+            }
+        }
+    }
+}
 
 int main()
 {
@@ -49,11 +69,29 @@ int main()
 
     ll n;
     cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    for(ll i=0; i<=n; i++){
+        adj[i].clear();
+        visited[i]=-1;
     }
-
+    for(ll i=0; i<n-1; i++){
+        ll x,y;
+        cin >> x >> y;
+        adj[x].push_back(y);
+        adj[y].push_back(x);
+    }
+    bfs(1);
+    ll q;
+    cin >> q;
+    ll node;
+    for(ll i=0; i<q; i++){
+        ll x;
+        cin >> x;
+        if(i==0){
+            node = x;
+            continue;
+        }
+        if(visited[x]<=visited[node]) node = min(node,x);
+    }
+    cout << node << endl;
     return 0;
 }

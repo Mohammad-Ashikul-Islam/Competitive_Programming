@@ -42,17 +42,48 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
+const ll mx = 1e7+123;
+ll isNotPrime[mx];
+vector<ll> primes;
+
+void seive(){
+    primes.push_back(2);
+    ll range=sqrt(mx);
+    for(ll i=3; i<range; i+=2){
+        if(isNotPrime[i]==1) continue;
+        for(ll j=i*i; j<mx; j+=i) isNotPrime[j]=1;
+    }
+    for(ll i=3; i<mx; i+=2){
+        if(isNotPrime[i]==0) primes.push_back(i);
+    }
+}
 
 int main()
 {
     optimize();
+    seive();
 
     ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    while(cin >> n){
+        if(n==0) break;
+        else if(n<0) n*=-1;
+        ll divisorCount=0, maxDivisor=1;
+        for(ll i=0; i<primes.size(); i++){
+            if(primes[i]*primes[i]>n) break;
+            if(n%primes[i]==0){
+                divisorCount++;
+                maxDivisor = max(maxDivisor,primes[i]);
+            }
+            while(n%primes[i]==0){
+                n = n/primes[i];
+            }
+        }
+        if(n!=1){
+            divisorCount++;
+            maxDivisor = max(maxDivisor,n);
+        }
+        if(divisorCount<=1) cout << -1 << endl;
+        else cout << maxDivisor << endl;
     }
 
     return 0;

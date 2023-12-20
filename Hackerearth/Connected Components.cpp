@@ -43,17 +43,46 @@ ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
 
+void dfs(vector<vector<ll>>& adj,bool visited[],ll source,ll v, ll e)
+{
+    visited[source] = true;
+    stack<ll> st;
+    st.push(source);
+    while(!st.empty()){
+        ll x = st.top();
+        st.pop();
+        for(ll i=0; i<adj[x].size(); i++){
+            if(visited[ adj[x][i] ] == false){
+                visited[ adj[x][i] ] = true;
+                st.push(adj[x][i]);
+            }
+        }
+    }
+    return;
+}
+
 int main()
 {
     optimize();
 
-    ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    ll v,e;
+    cin >> v >> e;
+    vector<vector<ll>> adj;
+    for(ll i=0; i<v+1; i++) adj.push_back(vector<ll>());
+    bool visited[v+1] = {false};
+    for(ll i=0; i<e; i++){
+        ll x,y;
+        cin >> x >> y;
+        adj[x].push_back(y);
+        adj[y].push_back(x);
     }
-
+    ll cc=0;
+    for(ll i=1; i<=v; i++){
+        if(visited[i]==false){
+            cc++;
+            dfs(adj,visited,i,v,e);
+        }
+    }
+    cout << cc << endl;
     return 0;
 }

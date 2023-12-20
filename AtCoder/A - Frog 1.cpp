@@ -42,18 +42,29 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
+const ll mx = 2e5+123;
+ll ara[mx],dp[mx],n;
+
+ll fnc(ll i)
+{
+    if(i == n) return 0;
+    if(dp[i] != -1) return dp[i];
+    ll x = LLONG_MAX, y = LLONG_MAX;
+    if(i+1 <=n) x = abs(ara[i]-ara[i+1])+fnc(i+1);
+    if(i+2 <=n ) y = abs(ara[i]-ara[i+2])+fnc(i+2);
+    dp[i] = min(x,y);
+    return dp[i];
+}
 
 int main()
 {
     optimize();
 
-    ll n;
     cin >> n;
     for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+        cin >> ara[i];
+        dp[i] = -1;
     }
-
+    cout << fnc(1) << endl;
     return 0;
 }

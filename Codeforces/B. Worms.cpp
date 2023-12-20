@@ -49,11 +49,30 @@ int main()
 
     ll n;
     cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    vector<pair<ll,ll>> v;
+    ll current=0;
+    for(ll i=0; i<n; i++){
+        ll x;
+        cin >> x;
+        v.push_back({current+1,current+x});
+        current += x;
     }
-
+    ll q;
+    cin >> q;
+    for(ll i=0; i<q; i++){
+        ll x;
+        cin >> x;
+        ll low=0, high=v.size()-1,ans=-1;
+        while(low<=high){
+            ll mid=(low+high)/2;
+            if(x>=v[mid].first && x<=v[mid].second){
+                ans = mid;
+                break;
+            }
+            if(x>v[mid].second) low=mid+1;
+            if(x<v[mid].first) high = mid-1;
+        }
+        cout << ans+1 << endl;
+    }
     return 0;
 }

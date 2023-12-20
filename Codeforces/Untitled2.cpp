@@ -41,46 +41,49 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
+ll cnt=0;
 
+void dfs(vector<vector<ll>>& adj,bool visited[],ll source,ll v, ll e)
+{
+    visited[source] = true;
+    stack<ll> st;
+    st.push(source);
+    while(!st.empty()){
+        ll x = st.top();
+        st.pop();
+        for(ll i=0; i<adj[x].size(); i++){
+            if(visited[ adj[x][i] ] == false){
+                visited[ adj[x][i] ] = true;
+                st.push(adj[x][i]);
+            }
+        }
+    }
+    return;
+}
 
 int main()
 {
     optimize();
 
-    ll t;
-    cin >> t;
-    while(t--){
-        ll n,is,q;
-        cin >> n >> is >> q;
-        string s;
-        cin >> s;
-        ll l =s.size(),sum=is;
-        bool yes = false;
-        for(ll i=0; i<l; i++){
-            if(sum>=n) yes = true;
-            if(s[i]=='+') sum++;
-            else sum--;
-            if(sum>=n) yes = true;
-        }
-        if(yes==true){
-            cout << "YES\n";
-            continue;
-        }
-        bool maybe=false;
-        sum = is;
-        for(ll i=0; i<s.size(); i++){
-            ll tempis=is;
-            if(s[i]=='+') is++;
-            else is--;
-            ll cnt=0;
-            for(ll j=i+1; j<s.size(); j++){
-                if(s[j]=='+') cnt++;
-            }
-            if(tempis+cnt >=n || is+cnt >=n) maybe=true;
-        }
-        if(maybe) cout << "MAYBE\n";
-        else cout << "NO\n";
+    ll v,e;
+    cin >> v >> e;
+    vector<vector<ll>> adj;
+    for(ll i=0; i<v+1; i++) adj.push_back(vector<ll>());
+    bool visited[v+1] = {false};
+    for(ll i=0; i<e; i++){
+        ll x,y;
+        cin >> x >> y;
+        adj[x].push_back(y);
+        adj[y].push_back(x);
     }
-
+    for(ll i=1; i<=v; i++){
+        if(visited[i]==false){
+            cnt++;
+            dfs(adj,visited,i,v,e);
+        }
+    }
+    ll ans=1;
+    for(ll i=1; i<=v-cnt; i++) ans *= 2;
+    cout << ans << endl;
     return 0;
 }

@@ -1,3 +1,4 @@
+// ----> Mohammad Ashikul Islam, IIUC <----  //
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -47,13 +48,22 @@ int main()
 {
     optimize();
 
-    ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    ll m,n;
+    cin >> m >> n;
+    string s,p;
+    cin >> s >> p;
+    bool prefix=true,suffix=true;
+    for(ll i=0; i<s.size(); i++){
+        if(s[i]!=p[i]) prefix=false;
     }
+    for(ll i=s.size()-1,j=p.size()-1; i>=0; i--,j--){
+        if(s[i] != p[j]) suffix=false;
+    }
+    if(prefix && suffix) cout << 0 << endl;
+    else if(prefix && !suffix) cout << 1 << endl;
+    else if(!prefix && suffix) cout << 2 << endl;
+    else cout << 3 << endl;
+
 
     return 0;
 }

@@ -47,12 +47,29 @@ int main()
 {
     optimize();
 
-    ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    ll t;
+    cin >> t;
+    while(t--){
+        ll x,y;
+        cin >> x >> y;
+        string s,p;
+        cin >> s >> p;
+        ll ans = 0;
+        if(s.find(p) != string::npos){
+            cout << 0 << endl;
+            continue;
+        }
+        bool flag = false;
+        for(ll i=0; i<6; i++){
+            s+=s;
+            ans++;
+            if(s.find(p) != string::npos) {
+                flag = true;
+                break;
+            }
+        }
+        if(flag==false) cout << -1 << endl;
+        else cout << ans << endl;
     }
 
     return 0;

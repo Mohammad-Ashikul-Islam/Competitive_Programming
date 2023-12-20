@@ -1,3 +1,4 @@
+// ----> Mohammad Ashikul Islam, IIUC <----  //
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -47,12 +48,20 @@ int main()
 {
     optimize();
 
-    ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    ll t;
+    cin >> t;
+    while(t--){
+        ll a,b;
+        cin >> a >> b;
+        string p=to_string(a),q=to_string(b);
+        reverse(p.begin(),p.end());
+        reverse(q.begin(),q.end());
+        ll x=stoll(p,nullptr,10),y=stoll(q,nullptr,10);
+        ll z=x+y;
+        string s = to_string(z);
+        reverse(s.begin(),s.end());
+        ll ans = stoll(s,nullptr,10);
+        cout << ans << endl;
     }
 
     return 0;

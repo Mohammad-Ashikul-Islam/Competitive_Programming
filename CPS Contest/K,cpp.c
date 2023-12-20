@@ -1,3 +1,4 @@
+// ----> Mohammad Ashikul Islam, IIUC <----  //
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -49,10 +50,20 @@ int main()
 
     ll n;
     cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    for(ll i=n; i<1000; i++){
+        ll x=i;
+        ll a = i%10;
+        x /= 10;
+        ll b=x%10;
+        x/=10;
+        b *=10;
+
+        b= b+(x%10);
+        if(a==b){
+            cout << i << endl;
+            return 0;
+        }
+
     }
 
     return 0;

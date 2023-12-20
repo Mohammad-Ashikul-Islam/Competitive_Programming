@@ -42,17 +42,49 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
+const ll mx=1e6+123;
+ll isNotPrime[mx];
+vector<ll> primes;
+
+void seive()
+{
+    primes.push_back(2);
+    ll range = sqrt(mx);
+    for(ll i=3; i<range; i+=2){
+        if(isNotPrime[i]==1) continue;
+        for(ll j=i*i; j<mx; j+=i) isNotPrime[j]=1;
+    }
+    for(ll i=3; i<mx; i+=2){
+        if(isNotPrime[i]==0) primes.push_back(i);
+    }
+}
 
 int main()
 {
     optimize();
+    seive();
 
-    ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    ll t;
+    cin >> t;
+    for(ll tc=1; tc<=t; tc++){
+        ll len;
+        cin >> len;
+        set<ll> st;
+        vector<ll> v(len);
+        for(ll i=0; i<len; i++) cin >> v[i];
+        for(ll u=0; u<len; u++){
+            ll n=v[u];
+            for(ll i=0; i<primes.size(); i++){
+            if(primes[i]*primes[i]>n) break;
+            while(n%primes[i]==0){
+                st.insert(primes[i]);
+                n /= primes[i];
+            }
+        }
+        if(n!=1) st.insert(n);
+        }
+        cout << "Case #" << tc << ": " << st.size() << endl;
+        for(auto it=st.begin(); it!=st.end(); it++) cout << *it << endl;
     }
 
     return 0;

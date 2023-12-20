@@ -47,11 +47,26 @@ int main()
 {
     optimize();
 
-    ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
+        string s;
+        cin >> s;
+        ll zero=0,one=0,zero_last=0;
+        for(ll i=0; i<s.size(); i++){
+            s[i]=='0'?zero++:one++;
+        }
+        for(ll i=s.size()-1; i>=0 && s[i]=='0'; i--) zero_last++;
+        zero = zero-zero_last;
+        vector<ll> ans;
+        for(ll i=1,j=2; i<=n; i++,j*=2){
+            if(zero_last>=i) ans.push_back(0);
+            else if(zero_last+zero<i) ans.push_back(-1);
+            else ans.push_back(i-zero_last);
+        }
+        for(auto u:ans) cout<< u << " ";
         cout << endl;
     }
 

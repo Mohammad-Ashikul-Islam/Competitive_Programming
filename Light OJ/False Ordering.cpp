@@ -42,18 +42,37 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
+const ll mx = 1e3+1;
+ll numbers[mx];
+
+void seive()
+{
+    for(ll i=1; i<mx; i++){
+        for(ll j=i; j<mx; j+=i) numbers[j]++;
+    }
+}
+
+bool cmp(pair<ll,ll> x, pair<ll,ll> y)
+{
+    if(x.second < y.second) return true;
+    if(x.second == y.second && x.first > y.first) return true;
+    return false;
+}
 
 int main()
 {
     optimize();
-
-    ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    seive();
+    vector<pair<ll,ll>> v;
+    for(ll i=1; i<mx; i++) v.push_back({i,numbers[i]});
+    sort(v.begin(),v.end(),cmp);
+    ll t;
+    cin >> t;
+    for(ll tc=1; tc<=t; tc++){
+        ll n;
+        cin >> n;
+        n--;
+        cout << "Case " << tc << ": " << v[n].first << endl;
     }
-
     return 0;
 }

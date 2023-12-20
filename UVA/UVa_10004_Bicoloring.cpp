@@ -42,19 +42,53 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
+const ll mx = 1e2+123;
+vector<ll> adj[mx];
+ll color[mx];
+
+bool bfs(ll source)
+{
+    color[source]=1;
+    queue<ll> q;
+    q.push(source);
+    while(!q.empty()){
+        ll x = q.front();
+        q.pop();
+        for(ll i=0; i<adj[x].size(); i++){
+            if(color[adj[x][i]] == color[x]) return false;
+            if(color[adj[x][i]]==0){
+                q.push(adj[x][i]);
+                if(color[x]==1) color[ adj[x][i] ] = 2;
+                else color[ adj[x][i] ] = 1;
+            }
+        }
+    }
+    return true;
+}
 
 int main()
 {
     optimize();
 
-    string s;
-    cin >> s;
-    for(ll i=s.size()-1; i>=0; i--){
-        ll num= s[i]-'0';
-        if(9-num<num) num = 9-num;
-        if(i==0 && num==0) continue;
-        s[i] = num+'0';
+    ll v;
+    while(cin >> v){
+        if(v==0) break;
+        ll e;
+        cin >> e;
+        for(ll i=0; i<=v; i++){
+            color[i]=0;
+            adj[i].clear();
+        }
+        for(ll i=0; i<e; i++){
+            ll x,y;
+            cin >> x >> y;
+            adj[x].push_back(y);
+            adj[y].push_back(x);
+        }
+        bool ans = bfs(0);
+        if(ans) cout << "BICOLORABLE.\n";
+        else cout << "NOT BICOLORABLE.\n";
     }
-    cout << s << endl;
+
     return 0;
 }

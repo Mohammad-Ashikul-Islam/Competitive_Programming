@@ -42,17 +42,39 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
+const ll mx = 1e6+123;
+ll ara[mx];
+vector<ll> primes;
+void seive(){
+    for(ll i=3; i<mx; i++){
+        for(ll j=i+i; j<mx; j+=i) ara[j]=1;
+    }
+    for(ll i=3; i<mx; i++){
+        if(ara[i]==0) primes.push_back(i);
+    }
+}
 
 int main()
 {
     optimize();
+    seive();
 
     ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    while(cin >> n){
+        if(n==0) break;
+        bool found=false;
+        ll x,y;
+        for(ll i=0; i<primes.size(); i++){
+            if(primes[i] > n) break;
+            if( (n - primes[i])%2==1 && ara[n-primes[i]]==0 ){
+                found=true;
+                x = primes[i];
+                y = n-primes[i];
+                break;
+            }
+        }
+        if(found == false) cout << "Goldbach's conjecture is wrong.\n";
+        else cout << n << " = " <<x << " + " << y <<endl;
     }
 
     return 0;

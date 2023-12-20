@@ -1,3 +1,4 @@
+// ----> Mohammad Ashikul Islam, IIUC <----  //
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -47,13 +48,17 @@ int main()
 {
     optimize();
 
+    ll x,total;
+    cin >> x;
     ll n;
     cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    total = x*(n+1);
+    ll sum=0;
+    for(ll i=0; i<n; i++){
+        ll y;
+        cin >> y;
+        sum+=y;
     }
-
+    cout << total-sum << endl;
     return 0;
 }

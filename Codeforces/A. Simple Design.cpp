@@ -42,17 +42,36 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
+ll digitsum(ll n)
+{
+    ll sum=0;
+    while(n>0)
+    {
+        ll m;
+        m=n%10;
+        sum=sum+m;
+        n=n/10;
+    }
+    return sum;
+}
 
 int main()
 {
     optimize();
 
-    ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    ll t;
+    cin >> t;
+    while(t--){
+        ll x,k;
+        cin >> x >> k;
+        ll ans;
+        for(ll i=x; i<=x+200; i++){
+            if( (digitsum(i)%k)==0){
+                ll ans=i;
+                break;
+            }
+        }
+        cout << ans << endl;
     }
 
     return 0;

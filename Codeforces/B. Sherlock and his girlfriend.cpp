@@ -42,18 +42,30 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
+const ll mx=1e5+123;
+ll ara[mx];
+
+void seive(){
+    for(ll i=2; i<mx; i++){
+        if(ara[i]==1) continue;
+        for(ll j=i*i; j<mx; j+=i) ara[j]=1;
+    }
+}
 
 int main()
 {
     optimize();
+    seive();
 
     ll n;
     cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    if(n+1<=3) cout << 1 << endl;
+    else cout << 2 << endl;
+    for(ll i=2; i<=n+1; i++){
+        if(ara[i]==0) cout << 1 << " ";
+        else cout << 2 << " ";
     }
+    cout << endl;
 
     return 0;
 }

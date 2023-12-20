@@ -42,17 +42,26 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
+const ll mx = 1e6+123;
+ll divisors[mx];
+
+void calculateDivisors(){
+    for(ll i=1; i<mx; i++){
+        for(ll j=i; j<mx; j+=i) divisors[j]++;
+    }
+}
 
 int main()
 {
     optimize();
 
-    ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    calculateDivisors();
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
+        cout << divisors[n] << endl;
     }
 
     return 0;

@@ -1,3 +1,4 @@
+// ----> Mohammad Ashikul Islam, IIUC <----  //
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -42,18 +43,29 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
+bool palindrome(string& s,ll j, ll k){
+    string p;
+    for(ll i=j; i<=k; i++ ) p.push_back(s[i]);
+    string q=p;
+    reverse(p.begin(),p.end());
+    if(p==q) return true;
+    return false;
+}
 
 int main()
 {
     optimize();
 
-    ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    string s;
+    cin >> s;
+    ll ans = 1;
+    for(ll i=0; i<s.size(); i++){
+        for(ll j=0; j<=i; j++){
+            if(palindrome(s, j,i)){
+                ans = max(ans,i-j+1);
+            }
+        }
     }
-
+    cout << ans << endl;
     return 0;
 }

@@ -47,25 +47,24 @@ int main()
 {
     optimize();
 
-    ll t;
+    ll t,tc;
     cin >> t;
-    while(t--){
-        ll b,beef,chicken,bp,cp,ans=0;
-        cin >> b >> beef >> chicken >> bp >> cp;
-        b = b/2;
-        if(bp>=cp){
-            ans += min(b,beef)*bp;
-            b -= min(b,beef);
-            ans += min(b,chicken)*cp;
-            b -= min(b,chicken);
+    for(ll tc=1; tc<=t; tc++){
+        ll n;
+        cin >> n;
+        vector<ll> v(n);
+        for(ll i=0; i<n; i++) cin >> v[i];
+        ll ans=1;;
+        ll csum=0;
+        for(ll i=0; i<n; i++){
+            if(csum+v[i]>0) csum+=v[i];
+            else{
+                csum = (csum+v[i]);
+                ans = min(ans,csum);
+            }
         }
-        else{
-            ans += min(b,chicken)*cp;
-            b -= min(b,chicken);
-            ans += min(b,beef)*bp;
-            b -= min(b,chicken);
-        }
-        cout << ans << endl;
+        if(ans<=0) ans = 1-ans;
+        cout << "Scenario #"<< tc << ": " << ans << endl;
     }
 
     return 0;

@@ -42,17 +42,37 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
+bool validate(vector<ll>& v, ll x){
+    ll sum=x;
+    for(ll i=0; i<v.size(); i++){
+        sum+=v[i];
+        if(sum<=0) return false;
+    }
+    return true;
+}
 
 int main()
 {
     optimize();
 
-    ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
+        vector<ll> v(n);
+        for(ll i=0; i<n; i++) cin >> v[i];
+        ll low=0, high=1e15+123;
+        ll mid,ans=0;;
+        while(low<=high){
+            mid = (high-low)/2+low;
+            if(validate(v,mid)){
+                high = mid-1;
+                ans = mid;
+            }
+            else low=mid+1;
+        }
+        cout << ans << endl;
     }
 
     return 0;

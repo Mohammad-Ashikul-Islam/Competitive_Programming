@@ -42,17 +42,54 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
+const ll mx=2e4+123;
+vector<ll> adj[mx];
+bitset<mx> visited,exists;
+ll cnt,cnt1; //cnt means number of connected nodes in a component and cnt1 means colored 1 node ( or vampire) in that component
+
+void dfs(ll source, ll color)
+{
+    visited[source] = true;
+    cnt++;
+    ll next_color;
+    if(color==1) { cnt1++; next_color=2; }
+    else next_color = 1;
+    for(ll i=0; i<adj[source].size(); i++){
+        if(!visited[adj[source][i] ]){
+            dfs( adj[source][i], next_color );
+        }
+    }
+}
 
 int main()
 {
     optimize();
 
-    ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    ll t;
+    cin >> t;
+    for(ll tc=1; tc<=t; tc++){
+        for(ll i=0; i<mx; i++){
+            adj[i].clear();
+            exists[i] = visited[i] = false;
+        }
+        ll e;
+        cin >> e;
+        for(ll i=0; i<e; i++){
+            ll u,v;
+            cin >> u >> v;
+            adj[u].push_back(v);
+            adj[v].push_back(u);
+            exists[u]=exists[v]=true;
+        }
+        ll ans=0;
+        for(ll i=0; i<mx; i++){
+            cnt = cnt1 = 0;
+            if(exists[i]==true && visited[i]==false){
+                dfs(i,1);
+                ans += max(cnt1,cnt-cnt1);
+            }
+        }
+        cout << "Case " << tc << ": " << ans << endl;
     }
 
     return 0;

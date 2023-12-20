@@ -42,17 +42,50 @@ template < typename T, typename ... hello>void faltu( T arg, const hello &... re
 ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
 ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 
+const ll mx = 1e7+123;
+ll numbers[mx],modified_numbers[mx];
+
+void seive()
+{
+    ll n = sqrt(mx);
+    for(ll i=2; i<n; i++){
+        if(numbers[i]==1) continue;
+        for(ll j=i*i; j<mx; j+=i) numbers[j]=1;
+    }
+}
+
+void processPrimes()
+{
+    for(ll i=1; i<mx; i++){
+        ll xx=i*i;
+        if(xx > mx) break;
+        for(ll j=1; j<mx; j++){
+            ll y = j;
+            ll yyyy = y*y;
+            if(yyyy > mx) break;
+            yyyy *= y;
+            if(yyyy >mx) break;
+            yyyy *= y;
+            if(yyyy > mx) break;
+            if(xx+yyyy>mx) break;
+            if(numbers[xx+yyyy]==0) modified_numbers[xx+yyyy]=1;
+        }
+    }
+    for(ll i=1; i<mx; i++) modified_numbers[i]+=modified_numbers[i-1];
+}
 
 int main()
 {
     optimize();
+    seive();
+    processPrimes();
 
-    ll n;
-    cin >> n;
-    for(ll i=1; i<=n; i++){
-        for(ll j=1; j<=n-i; j++) cout << " ";
-        for(ll k=1; k<=2*i-1; k++) cout << "*";
-        cout << endl;
+    ll t;
+    cin >> t;
+    while(t--){
+        ll n;
+        cin >> n;
+        cout << modified_numbers[n] << endl;
     }
 
     return 0;
